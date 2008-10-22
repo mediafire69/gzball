@@ -6,9 +6,7 @@
 	<com.insa.sffs.android.gzball.GZBallView
 	 android:id="@+id/view"
 		android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                tileSize="12"
-                />
+                android:layout_height="fill_parent"/>
 	 
 	<RelativeLayout
 		android:layout_width="fill_parent"
