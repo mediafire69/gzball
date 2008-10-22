@@ -1,3 +1,8 @@
-#Wed Oct 22 15:31:14 CEST 2008
+#Wed Oct 22 16:51:32 CEST 2008
+com.android.ide.eclipse.ddms.logcat.time=127
+com.android.ide.eclipse.ddms.logcat.pid=47
 eclipse.preferences.version=1
 com.android.ide.eclipse.ddms.adb=D\:\\Tmp\\android-sdk-windows-1.0_r1\\tools\\adb.exe
+com.android.ide.eclipse.ddms.logcat.message=541
+com.android.ide.eclipse.ddms.logcat.level=23
+com.android.ide.eclipse.ddms.logcat.tag=79
