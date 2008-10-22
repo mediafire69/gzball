@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	
+	<com.insa.sffs.android.gzball.GZBallView
+	 android:id="@+id/view"
+		android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                tileSize="12"
+                />
+	 
+	<RelativeLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent" >
+		
+		<TextView
+		 android:id="@+id/text"
+			android:text="@string/text1"
+			android:visibility="visible"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerInParent="false"
+			android:gravity="center_horizontal"
+			android:textColor="#ff8888ff"
+			android:textSize="14sp"/>
+	</RelativeLayout>
+</FrameLayout>

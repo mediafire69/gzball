@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench progressCount="21" version="2.0">
+<workbenchAdvisor/>
+<window height="768" maximized="true" width="1024" x="176" y="226">
+<fastViewData fastViewLocation="1024"/>
+<perspectiveBar>
+<itemSize x="160"/>
+</perspectiveBar>
+<coolbarLayout locked="0">
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="98" y="22"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="124" y="22"/>
+<coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="98" y="22"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="98" y="22"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="85" y="22"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="116" y="22"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="183" y="22"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="com.android.ide.eclipse.adt.editors.java.ReadOnlyJavaEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page aggregateWorkingSetId="Aggregate for window 1224673682875" focus="true" label="Workspace - Java">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="16"/>
+<part id="7"/>
+<part id="8"/>
+<part id="9"/>
+<part id="10"/>
+<part id="11"/>
+<part id="12"/>
+<part id="13"/>
+<part id="14"/>
+<part id="15"/>
+<part id="17"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AndroidHello.java" partName="AndroidHello.java" path="D:/Tmp/workspace/AndroidHello/src/com/android/hello/AndroidHello.java" title="AndroidHello.java" tooltip="AndroidHello/src/com/android/hello/AndroidHello.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/AndroidHello/src/com/android/hello/AndroidHello.java"/>
+<editorState selectionLength="0" selectionOffset="341"/>
+</editor>
+<editor id="com.android.ide.eclipse.adt.editors.java.ReadOnlyJavaEditor" name="R.java" partName="R.java" path="D:/Tmp/workspace/AndroidHello/src/com/android/hello/R.java" title="R.java" tooltip="AndroidHello/src/com/android/hello/R.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/AndroidHello/src/com/android/hello/R.java"/>
+<editorState selectionLength="0" selectionOffset="639"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LunarLander.java" partName="LunarLander.java" path="D:/Tmp/android-sdk-windows-1.0_r1/samples/LunarLander/src/com/example/android/lunarlander/LunarLander.java" title="LunarLander.java" tooltip="LunarLander/src/com/example/android/lunarlander/LunarLander.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LunarLander/src/com/example/android/lunarlander/LunarLander.java"/>
+<editorState selectionLength="0" selectionOffset="1609"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LunarView.java" partName="LunarView.java" path="D:/Tmp/android-sdk-windows-1.0_r1/samples/LunarLander/src/com/example/android/lunarlander/LunarView.java" title="LunarView.java" tooltip="LunarLander/src/com/example/android/lunarlander/LunarView.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LunarLander/src/com/example/android/lunarlander/LunarView.java"/>
+<editorState selectionLength="0" selectionOffset="8478"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SkeletonActivity.java" partName="SkeletonActivity.java" path="D:/Tmp/android-sdk-windows-1.0_r1/samples/SkeletonApp/src/com/example/android/skeletonapp/SkeletonActivity.java" title="SkeletonActivity.java" tooltip="SkeletonActivity/src/com/example/android/skeletonapp/SkeletonActivity.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SkeletonActivity/src/com/example/android/skeletonapp/SkeletonActivity.java"/>
+<editorState selectionLength="0" selectionOffset="1163"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Snake.java" partName="Snake.java" path="D:/Tmp/android-sdk-windows-1.0_r1/samples/Snake/src/com/example/android/snake/Snake.java" title="Snake.java" tooltip="Snake/src/com/example/android/snake/Snake.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Snake/src/com/example/android/snake/Snake.java"/>
+<editorState selectionLength="0" selectionOffset="1547"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SnakeView.java" partName="SnakeView.java" path="D:/Tmp/android-sdk-windows-1.0_r1/samples/Snake/src/com/example/android/snake/SnakeView.java" title="SnakeView.java" tooltip="Snake/src/com/example/android/snake/SnakeView.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Snake/src/com/example/android/snake/SnakeView.java"/>
+<editorState selectionLength="0" selectionOffset="1606"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GZBallView.java" partName="GZBallView.java" path="D:/Tmp/workspace/GZBall1/src/com/insa/sffs/android/gzball/GZBallView.java" title="GZBallView.java" tooltip="GZBall1/src/com/insa/sffs/android/gzball/GZBallView.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/GZBall1/src/com/insa/sffs/android/gzball/GZBallView.java"/>
+<editorState selectionLength="0" selectionOffset="509"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.layout.LayoutEditor" name="snake_layout.xml" partName="snake_layout.xml" path="D:/Tmp/android-sdk-windows-1.0_r1/samples/Snake/res/layout/snake_layout.xml" title="snake_layout.xml" tooltip="Snake/res/layout/snake_layout.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Snake/res/layout/snake_layout.xml"/>
+</editor>
+<editor id="com.android.ide.eclipse.adt.editors.java.ReadOnlyJavaEditor" name="R.java" partName="R.java" path="D:/Tmp/android-sdk-windows-1.0_r1/samples/Snake/src/com/example/android/snake/R.java" title="R.java" tooltip="Snake/src/com/example/android/snake/R.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Snake/src/com/example/android/snake/R.java"/>
+<editorState selectionLength="0" selectionOffset="884"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.layout.LayoutEditor" name="main.xml" partName="main.xml" path="D:/Tmp/workspace/GZBall1/res/layout/main.xml" title="main.xml" tooltip="GZBall1/res/layout/main.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/GZBall1/res/layout/main.xml"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.resources.ResourcesEditor" name="strings.xml" partName="strings.xml" path="D:/Tmp/android-sdk-windows-1.0_r1/samples/Snake/res/values/strings.xml" title="strings.xml" tooltip="Snake/res/values/strings.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Snake/res/values/strings.xml"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.resources.ResourcesEditor" name="strings.xml" partName="strings.xml" path="D:/Tmp/workspace/GZBall1/res/values/strings.xml" title="strings.xml" tooltip="GZBall1/res/values/strings.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/GZBall1/res/values/strings.xml"/>
+</editor>
+<editor id="com.android.ide.eclipse.adt.editors.java.ReadOnlyJavaEditor" name="R.java" partName="R.java" path="D:/Tmp/workspace/GZBall1/src/com/insa/sffs/android/gzball/R.java" title="R.java" tooltip="GZBall1/src/com/insa/sffs/android/gzball/R.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/GZBall1/src/com/insa/sffs/android/gzball/R.java"/>
+<editorState selectionLength="0" selectionOffset="0"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.resources.ResourcesEditor" name="attrs.xml" partName="attrs.xml" path="D:/Tmp/android-sdk-windows-1.0_r1/samples/Snake/res/values/attrs.xml" title="attrs.xml" tooltip="Snake/res/values/attrs.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Snake/res/values/attrs.xml"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.resources.ResourcesEditor" name="attributs.xml" partName="attributs.xml" path="D:/Tmp/workspace/GZBall1/res/values/attributs.xml" title="attributs.xml" tooltip="GZBall1/res/values/attributs.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/GZBall1/res/values/attributs.xml"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GZBall1.java" partName="GZBall1.java" path="D:/Tmp/workspace/GZBall1/src/com/insa/sffs/android/gzball/GZBall1.java" title="GZBall1.java" tooltip="GZBall1/src/com/insa/sffs/android/gzball/GZBall1.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/GZBall1/src/com/insa/sffs/android/gzball/GZBall1.java"/>
+<editorState selectionLength="0" selectionOffset="631"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TileView.java" partName="TileView.java" path="D:/Tmp/workspace/GZBall1/src/com/insa/sffs/android/gzball/TileView.java" title="TileView.java" tooltip="GZBall1/src/com/insa/sffs/android/gzball/TileView.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/GZBall1/src/com/insa/sffs/android/gzball/TileView.java"/>
+<editorState selectionLength="0" selectionOffset="4"/>
+</editor>
+</editors>
+<views>
+<view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
+<viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
+</view>
+<view id="org.eclipse.jdt.ui.TypeHierarchy" partName="Hierarchy"/>
+<view id="org.eclipse.ui.views.PropertySheet" partName="Properties">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.ProblemView" partName="Problems">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<expanded>
+<category IMemento.internal.id="Warnings"/>
+<category IMemento.internal.id="Warnings (2 items)"/>
+</expanded>
+<columnWidths org.eclipse.ui.ide.locationField="0" org.eclipse.ui.ide.markerType="0" org.eclipse.ui.ide.pathField="0" org.eclipse.ui.ide.resourceField="0" org.eclipse.ui.ide.severityAndDescriptionField="0"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+<view id="org.eclipse.jdt.ui.PackageExplorer" partName="Package Explorer">
+<viewState group_libraries="1" isWindowWorkingSet="false" layout="2" linkWithEditor="0" rootMode="1" workingSetName="">
+<customFilters userDefinedPatternsEnabled="false">
+<xmlDefinedFilters>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.LibraryFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.StaticsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonSharedProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonJavaElementFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ContainedLibraryFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.CuAndClassFileFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonJavaProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.EmptyInnerPackageFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.PackageDeclarationFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.EmptyPackageFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.FieldsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.HideInnerClassFilesFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonPublicFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.*" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.EmptyLibraryContainerFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.SyntheticMembersFilter" isEnabled="true"/>
+<child filterId="org.eclipse.mylyn.java.ui.MembersFilter" isEnabled="false"/>
+</xmlDefinedFilters>
+</customFilters>
+</viewState>
+</view>
+<view id="org.eclipse.ui.views.TaskList" partName="Tasks">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.completionField" categoryGroup="none" markerContentGenerator="org.eclipse.ui.ide.tasksGenerator" partName="Tasks">
+<columnWidths org.eclipse.ui.ide.completionField="40" org.eclipse.ui.ide.descriptionField="254" org.eclipse.ui.ide.locationField="54" org.eclipse.ui.ide.markerType="79" org.eclipse.ui.ide.pathField="104" org.eclipse.ui.ide.priorityField="20" org.eclipse.ui.ide.resourceField="79"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.completionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.priorityField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.descriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+<view id="org.eclipse.jdt.ui.SourceView" partName="Declaration"/>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
+<view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
+</views>
+<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.ui.internal.ide.application.ResourcePerspective" id="org.eclipse.ui.resourcePerspective" label="Resource"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.tasks.ui.navigation"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.doc.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
+<show_view_action id="org.eclipse.ui.views.ResourceNavigator"/>
+<show_view_action id="org.eclipse.ui.views.BookmarkView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.PropertySheet"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.ui.views.ProgressView"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<new_wizard_action id="org.eclipse.ui.editors.wizards.UntitledTextFileWizard"/>
+<perspective_action id="org.eclipse.team.ui.TeamSynchronizingPerspective"/>
+<view id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="org.eclipse.ui.views.TaskList"/>
+<fastViewBars/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="topLeft">&#x0A;<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@caf083" ratio="0.75" ratioLeft="756" ratioRight="252" relationship="2" relative="topLeft">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.25992063" ratioLeft="262" ratioRight="746" relationship="2" relative="topLeft"/>
+<info folder="true" part="bottomRight" ratio="0.65898615" ratioLeft="429" ratioRight="222" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.TaskList" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="bottomLeft" ratio="0.49923196" ratioLeft="325" ratioRight="326" relationship="4" relative="topLeft">&#x0A;<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory" id="org.eclipse.jdt.ui.JavaPerspective" label="Java"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.tasks.ui.navigation"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.doc.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaElementCreationActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.debug.ui.JDTDebugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.junit.JUnitActionSet"/>
+<show_view_action id="org.eclipse.jdt.ui.PackageExplorer"/>
+<show_view_action id="org.eclipse.jdt.ui.TypeHierarchy"/>
+<show_view_action id="org.eclipse.jdt.ui.SourceView"/>
+<show_view_action id="org.eclipse.jdt.ui.JavadocView"/>
+<show_view_action id="org.eclipse.search.ui.views.SearchView"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.ui.views.ResourceNavigator"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="org.eclipse.ui.views.ProgressView"/>
+<show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<show_view_action id="org.eclipse.ui.texteditor.TemplatesView"/>
+<show_view_action id="org.eclipse.ant.ui.views.AntView"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<show_view_action id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewPackageCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewClassCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewInterfaceCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewEnumCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewAnnotationCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewSourceFolderCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewSnippetFileCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewJavaWorkingSetWizard"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<new_wizard_action id="org.eclipse.ui.editors.wizards.UntitledTextFileWizard"/>
+<new_wizard_action id="com.android.ide.eclipse.adt.project.NewProjectWizard"/>
+<new_wizard_action id="org.eclipse.jdt.junit.wizards.NewTestCaseCreationWizard"/>
+<new_wizard_action id="org.eclipse.mylyn.tasks.ui.wizards.new.repository.task"/>
+<perspective_action id="com.android.ide.eclipse.ddms.Perspective"/>
+<perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaBrowsingPerspective"/>
+<view id="org.eclipse.jdt.ui.PackageExplorer"/>
+<view id="org.eclipse.jdt.ui.TypeHierarchy"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="org.eclipse.jdt.ui.JavadocView"/>
+<view id="org.eclipse.jdt.ui.SourceView"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.ui.views.PropertySheet"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="left">
+<folder activePageID="org.eclipse.jdt.ui.PackageExplorer" appearance="2" expanded="2">
+<page content="org.eclipse.jdt.ui.PackageExplorer" label="Package Explorer"/>
+<page content="org.eclipse.jdt.ui.TypeHierarchy" label="Hierarchy"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.junit.ResultView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="756" ratioRight="252" relationship="2" relative="left">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="252" ratioRight="756" relationship="2" relative="left"/>
+<info folder="true" part="bottom" ratio="0.65759635" ratioLeft="580" ratioRight="302" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.views.PropertySheet" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
+<page content="org.eclipse.jdt.ui.SourceView" label="Declaration"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@e1ddc5" ratio="0.66568047" ratioLeft="675" ratioRight="339" relationship="2" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.mylyn.tasks.ui.views.tasks" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="right" ratio="0.5" ratioLeft="244" ratioRight="244" relationship="4" relative="org.eclipse.ui.internal.ViewStack@e1ddc5">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<page content="org.eclipse.ui.texteditor.TemplatesView" label="LabelNotFound"/>
+<page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/GZBall1/src/com/insa/sffs/android/gzball/GZBallView.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/GZBall1/src/com/insa/sffs/android/gzball/TileView.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.layout.LayoutEditor" path="/Snake/res/layout/snake_layout.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.layout.LayoutEditor" path="/GZBall1/res/layout/main.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.resources.ResourcesEditor" path="/GZBall1/res/values/strings.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.adt.editors.java.ReadOnlyJavaEditor" path="/GZBall1/src/com/insa/sffs/android/gzball/R.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/GZBall1/res/values/attributs.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.resources.ResourcesEditor" path="/GZBall1/res/values/attributs.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/GZBall1/src/com/insa/sffs/android/gzball/GZBall1.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Snake/src/com/example/android/snake/Snake.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Snake/src/com/example/android/snake/SnakeView.java"/>
+</editors>
+<item historyLabel="strings.xml" index="4"/>
+<item historyLabel="attributs.xml" index="6"/>
+<item historyLabel="R.java" index="5">
+<position/>
+</item>
+<item historyLabel="strings.xml" index="4"/>
+<item historyLabel="attributs.xml" index="7"/>
+<item historyLabel="TileView.java" index="1">
+<position info="not_deleted" x="2224" y="0"/>
+</item>
+<item historyLabel="R.java" index="5">
+<position/>
+</item>
+<item historyLabel="GZBallView.java" index="0">
+<position info="not_deleted" x="440" y="0"/>
+</item>
+<item historyLabel="GZBall1.java" index="8">
+<position/>
+</item>
+<item historyLabel="Snake.java" index="9">
+<position info="not_deleted" x="1547" y="0"/>
+</item>
+<item historyLabel="Snake.java" index="9">
+<position info="not_deleted" x="1650" y="0"/>
+</item>
+<item historyLabel="GZBall1.java" index="8">
+<position info="not_deleted" x="851" y="0"/>
+</item>
+<item historyLabel="attributs.xml" index="7"/>
+<item historyLabel="GZBall1.java" index="8">
+<position info="not_deleted" x="851" y="0"/>
+</item>
+<item historyLabel="Snake.java" index="9">
+<position info="not_deleted" x="1659" y="565"/>
+</item>
+<item historyLabel="GZBall1.java" index="8">
+<position info="not_deleted" x="851" y="0"/>
+</item>
+<item historyLabel="GZBall1.java" index="8">
+<position/>
+</item>
+<item historyLabel="GZBall1.java" index="8">
+<position info="not_deleted" x="388" y="10"/>
+</item>
+<item historyLabel="GZBall1.java" index="8">
+<position info="not_deleted" x="436" y="0"/>
+</item>
+<item historyLabel="snake_layout.xml" index="2"/>
+<item historyLabel="main.xml" index="3"/>
+<item historyLabel="GZBall1.java" index="8">
+<position info="not_deleted" x="436" y="0"/>
+</item>
+<item historyLabel="R.java" index="5">
+<position/>
+</item>
+<item historyLabel="Snake.java" index="9">
+<position info="not_deleted" x="1659" y="565"/>
+</item>
+<item historyLabel="GZBallView.java" index="0">
+<position info="not_deleted" x="440" y="0"/>
+</item>
+<item historyLabel="snake_layout.xml" index="2"/>
+<item historyLabel="main.xml" index="3"/>
+<item historyLabel="R.java" index="5">
+<position/>
+</item>
+<item historyLabel="GZBallView.java" index="0">
+<position info="not_deleted" x="440" y="0"/>
+</item>
+<item historyLabel="SnakeView.java" index="10">
+<position info="not_deleted" x="8056" y="0"/>
+</item>
+<item historyLabel="Snake.java" index="9">
+<position info="not_deleted" x="1547" y="0"/>
+</item>
+<item historyLabel="GZBall1.java" index="8">
+<position info="not_deleted" x="631" y="0"/>
+</item>
+<item historyLabel="GZBallView.java" index="0">
+<position info="not_deleted" x="509" y="0"/>
+</item>
+<item historyLabel="TileView.java" index="1">
+<position info="not_deleted" x="2224" y="0"/>
+</item>
+<item historyLabel="GZBallView.java" index="0">
+<position info="not_deleted" x="509" y="0"/>
+</item>
+<item historyLabel="SnakeView.java" index="10">
+<position info="not_deleted" x="8056" y="0"/>
+</item>
+<item historyLabel="SnakeView.java" index="10">
+<position info="not_deleted" x="7826" y="0"/>
+</item>
+<item historyLabel="SnakeView.java" index="10">
+<position info="not_deleted" x="4517" y="11"/>
+</item>
+<item historyLabel="SnakeView.java" index="10">
+<position info="not_deleted" x="5083" y="0"/>
+</item>
+<item historyLabel="SnakeView.java" index="10">
+<position info="not_deleted" x="11169" y="14"/>
+</item>
+<item historyLabel="SnakeView.java" index="10">
+<position info="not_deleted" x="12182" y="0"/>
+</item>
+<item historyLabel="SnakeView.java" index="10">
+<position info="not_deleted" x="2919" y="10"/>
+</item>
+<item historyLabel="SnakeView.java" index="10">
+<position info="not_deleted" x="3005" y="0"/>
+</item>
+<item historyLabel="SnakeView.java" index="10">
+<position info="not_deleted" x="16202" y="10"/>
+</item>
+<item historyLabel="SnakeView.java" index="10">
+<position info="not_deleted" x="12847" y="11"/>
+</item>
+<item historyLabel="SnakeView.java" index="10">
+<position info="not_deleted" x="13241" y="12"/>
+</item>
+<item historyLabel="SnakeView.java" index="10">
+<position info="not_deleted" x="13700" y="11"/>
+</item>
+<item historyLabel="SnakeView.java" index="10">
+<position info="not_deleted" x="12847" y="11"/>
+</item>
+<item historyLabel="SnakeView.java" index="10">
+<position info="not_deleted" x="1606" y="0"/>
+</item>
+<item active="true" historyLabel="TileView.java" index="1">
+<position info="not_deleted" x="4" y="0"/>
+</item>
+</navigationHistory>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TileView.java" tooltip="GZBall1/src/com/insa/sffs/android/gzball/TileView.java">
+<persistable path="/GZBall1/src/com/insa/sffs/android/gzball/TileView.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GZBall1.java" tooltip="GZBall1/src/com/insa/sffs/android/gzball/GZBall1.java">
+<persistable path="/GZBall1/src/com/insa/sffs/android/gzball/GZBall1.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.resources.ResourcesEditor" name="attributs.xml" tooltip="GZBall1/res/values/attributs.xml">
+<persistable path="/GZBall1/res/values/attributs.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.resources.ResourcesEditor" name="attrs.xml" tooltip="Snake/res/values/attrs.xml">
+<persistable path="/Snake/res/values/attrs.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.adt.editors.java.ReadOnlyJavaEditor" name="R.java" tooltip="GZBall1/src/com/insa/sffs/android/gzball/R.java">
+<persistable path="/GZBall1/src/com/insa/sffs/android/gzball/R.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.resources.ResourcesEditor" name="strings.xml" tooltip="GZBall1/res/values/strings.xml">
+<persistable path="/GZBall1/res/values/strings.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.resources.ResourcesEditor" name="strings.xml" tooltip="Snake/res/values/strings.xml">
+<persistable path="/Snake/res/values/strings.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.layout.LayoutEditor" name="main.xml" tooltip="GZBall1/res/layout/main.xml">
+<persistable path="/GZBall1/res/layout/main.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.adt.editors.java.ReadOnlyJavaEditor" name="R.java" tooltip="Snake/src/com/example/android/snake/R.java">
+<persistable path="/Snake/src/com/example/android/snake/R.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.layout.LayoutEditor" name="snake_layout.xml" tooltip="Snake/res/layout/snake_layout.xml">
+<persistable path="/Snake/res/layout/snake_layout.xml"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="View.class" tooltip="android.view.View">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=GZBall1/D:\/Tmp\/android-sdk-windows-1.0_r1\/android.jar&lt;android.view(View.class"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TileView.java" tooltip="Snake/src/com/example/android/snake/TileView.java">
+<persistable path="/Snake/src/com/example/android/snake/TileView.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GZBallView.java" tooltip="GZBall1/src/com/insa/sffs/android/gzball/GZBallView.java">
+<persistable path="/GZBall1/src/com/insa/sffs/android/gzball/GZBallView.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SnakeView.java" tooltip="Snake/src/com/example/android/snake/SnakeView.java">
+<persistable path="/Snake/src/com/example/android/snake/SnakeView.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Snake.java" tooltip="Snake/src/com/example/android/snake/Snake.java">
+<persistable path="/Snake/src/com/example/android/snake/Snake.java"/>
+</file>
+</mruList>
+</workbench>
