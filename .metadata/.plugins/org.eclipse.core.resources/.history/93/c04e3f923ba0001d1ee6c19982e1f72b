@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, GZBall1</string>
+    <string name="app_name">GZ Ball, le jeu</string>
+<string name="text1">Plop</string>
+</resources>
