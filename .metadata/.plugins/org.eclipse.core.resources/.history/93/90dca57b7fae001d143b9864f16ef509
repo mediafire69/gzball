@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/title"
+    android:layout_width="fill_parent" android:layout_height="fill_parent"
+    android:gravity="center_vertical|center_horizontal"
+    android:text="@string/translucent_background"/>
+
+<!-- <RelativeLayout android:id="@+id/layout"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:gravity="center_vertical|center_horizontal"
+	>-->
+	<!--<EditText android:id="@+id/description" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="EditText"
+		android:textSize="18sp" android:layout_centerVertical="true"
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_alignParentLeft="true">
+	</EditText>-->
+	<!--<Button android:id="@+id/button" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="OK"
+		android:layout_below="@+id/description" android:layout_centerHorizontal="true">
+	</Button>-->
+	<!--<TextView android:id="@+id/title" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="Enter the description"
+		android:gravity="center" android:layout_above="@+id/description"
+		android:layout_alignParentLeft="true">
+	</TextView>-->
+<!--</RelativeLayout>-->

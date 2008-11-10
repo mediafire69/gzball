@@ -1,0 +1,9 @@
+1226229737437	Rename local variable 'g'
+1226243926843	Copy file
+1226244909921	Rename local variable 'body'
+1226244927968	Rename local variable 'title'
+1226246354015	Delete element
+1226250587031	Rename field 'textEdit'
+1226253677593	Extract Class...
+1226253739656	Delete element
+1226255472812	Extract method 'createNote'

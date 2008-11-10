@@ -1,0 +1,1095 @@
+!SESSION 2008-10-21 11:00:40.312 -----------------------------------------------
+eclipse.buildId=M20080911-1700
+java.version=1.6.0_04
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fr_FR
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.equinox.p2.director 2 0 2008-10-21 11:03:57.140
+!MESSAGE Problems resolving provisioning plan.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2008-10-21 11:03:57.140
+!MESSAGE Unable to satisfy dependency from org.eclipse.wst.common.core 1.1.101.v200706120315 to requiredCapability: osgi.bundle/org.eclipse.core.runtime/[3.2.0,3.4.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2008-10-21 11:03:57.140
+!MESSAGE Unable to satisfy dependency from org.eclipse.wst.common.core 1.1.101.v200706120315 to requiredCapability: osgi.bundle/org.eclipse.core.resources/[3.2.0,3.4.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2008-10-21 11:03:57.140
+!MESSAGE Unable to satisfy dependency from org.eclipse.wst.common.core 1.1.101.v200706120315 to requiredCapability: osgi.bundle/org.eclipse.core.expressions/[3.2.0,3.4.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2008-10-21 11:03:57.140
+!MESSAGE Unable to satisfy dependency from org.eclipse.wst.common.ui 1.1.200.v200705302225 to requiredCapability: osgi.bundle/org.eclipse.ui.ide/[3.2.0,3.4.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2008-10-21 11:03:57.140
+!MESSAGE Unable to satisfy dependency from org.eclipse.wst.common.ui 1.1.200.v200705302225 to requiredCapability: osgi.bundle/org.eclipse.ui/[3.2.0,3.4.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2008-10-21 11:03:57.140
+!MESSAGE Unable to satisfy dependency from org.eclipse.wst.common.ui 1.1.200.v200705302225 to requiredCapability: osgi.bundle/org.eclipse.core.runtime/[3.2.0,3.4.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2008-10-21 11:03:57.140
+!MESSAGE Unable to satisfy dependency from org.eclipse.wst.common.ui 1.1.200.v200705302225 to requiredCapability: osgi.bundle/org.eclipse.core.resources/[3.2.0,3.4.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2008-10-21 11:03:57.140
+!MESSAGE Unable to satisfy dependency from org.eclipse.wst.common.ui 1.1.200.v200705302225 to requiredCapability: osgi.bundle/org.eclipse.search/[3.2.0,3.4.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2008-10-21 11:03:57.140
+!MESSAGE Unable to satisfy dependency from org.eclipse.wst.common.ui 1.1.200.v200705302225 to requiredCapability: osgi.bundle/org.eclipse.jface.text/[3.2.0,3.4.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2008-10-21 11:03:57.140
+!MESSAGE Unable to satisfy dependency from org.eclipse.wst.common.ui 1.1.200.v200705302225 to requiredCapability: osgi.bundle/org.eclipse.ui.workbench.texteditor/[3.2.0,3.4.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2008-10-21 11:03:57.140
+!MESSAGE Unable to satisfy dependency from org.eclipse.wst.sse.core 1.1.203.v200802140626 to requiredCapability: osgi.bundle/org.eclipse.emf.common/[2.2.0,2.4.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2008-10-21 11:03:57.140
+!MESSAGE Unable to satisfy dependency from org.eclipse.wst.common.environment 1.0.200.v200705302225 to requiredCapability: osgi.bundle/org.eclipse.core.resources/[3.2.0,3.4.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2008-10-21 11:03:57.140
+!MESSAGE Unable to satisfy dependency from org.eclipse.wst.common.emf 1.1.104.v200709131115 to requiredCapability: osgi.bundle/org.eclipse.emf.ecore.xmi/[2.2.0,2.4.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2008-10-21 11:03:57.140
+!MESSAGE Unable to satisfy dependency from org.eclipse.wst.common.emfworkbench.integration 1.1.105.v200802192030 to requiredCapability: osgi.bundle/org.eclipse.emf.edit/[2.2.0,2.4.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2008-10-21 11:03:57.140
+!MESSAGE Unable to satisfy dependency from org.eclipse.wst.common.emfworkbench.integration 1.1.105.v200802192030 to requiredCapability: osgi.bundle/org.eclipse.emf.ecore.xmi/[2.2.0,2.4.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2008-10-21 11:03:57.140
+!MESSAGE Unable to satisfy dependency from org.eclipse.wst.common.frameworks 1.1.103.v200802192030 to requiredCapability: osgi.bundle/org.eclipse.emf.ecore/[2.2.0,2.4.0).
+!SESSION 2008-10-21 11:08:58.765 -----------------------------------------------
+eclipse.buildId=M20080911-1700
+java.version=1.6.0_04
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fr_FR
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.equinox.p2.reconciler.dropins 4 0 2008-10-21 11:09:00.140
+!MESSAGE 
+!STACK 0
+org.osgi.framework.BundleException: The bundle could not be resolved. Reason: Missing Constraint: Import-Package: org.eclipse.equinox.internal.provisional.configurator; version="0.0.0"
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:305)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.resume(AbstractBundle.java:355)
+	at org.eclipse.osgi.framework.internal.core.Framework.resumeBundle(Framework.java:1074)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.resumeBundles(StartLevelManager.java:616)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.incFWSL(StartLevelManager.java:508)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:299)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.dispatchEvent(StartLevelManager.java:489)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:211)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:321)
+!SESSION 2008-10-21 11:16:22.046 -----------------------------------------------
+eclipse.buildId=M20080911-1700
+java.version=1.6.0_04
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fr_FR
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.equinox.p2.reconciler.dropins 4 0 2008-10-21 11:16:22.640
+!MESSAGE 
+!STACK 0
+org.osgi.framework.BundleException: The bundle could not be resolved. Reason: Missing Constraint: Import-Package: org.eclipse.equinox.internal.provisional.configurator; version="0.0.0"
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:305)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.resume(AbstractBundle.java:355)
+	at org.eclipse.osgi.framework.internal.core.Framework.resumeBundle(Framework.java:1074)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.resumeBundles(StartLevelManager.java:616)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.incFWSL(StartLevelManager.java:508)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:299)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.dispatchEvent(StartLevelManager.java:489)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:211)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:321)
+!SESSION 2008-10-21 11:23:45.312 -----------------------------------------------
+eclipse.buildId=M20080911-1700
+java.version=1.6.0_04
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fr_FR
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.equinox.p2.reconciler.dropins 4 0 2008-10-21 11:23:45.890
+!MESSAGE 
+!STACK 0
+org.osgi.framework.BundleException: The bundle could not be resolved. Reason: Missing Constraint: Import-Package: org.eclipse.equinox.internal.provisional.configurator; version="0.0.0"
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:305)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.resume(AbstractBundle.java:355)
+	at org.eclipse.osgi.framework.internal.core.Framework.resumeBundle(Framework.java:1074)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.resumeBundles(StartLevelManager.java:616)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.incFWSL(StartLevelManager.java:508)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:299)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.dispatchEvent(StartLevelManager.java:489)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:211)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:321)
+!SESSION 2008-10-21 11:24:19.765 -----------------------------------------------
+eclipse.buildId=M20080911-1700
+java.version=1.6.0_04
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fr_FR
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.equinox.p2.reconciler.dropins 4 0 2008-10-21 11:24:20.390
+!MESSAGE 
+!STACK 0
+org.osgi.framework.BundleException: The bundle could not be resolved. Reason: Missing Constraint: Import-Package: org.eclipse.equinox.internal.provisional.configurator; version="0.0.0"
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:305)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.resume(AbstractBundle.java:355)
+	at org.eclipse.osgi.framework.internal.core.Framework.resumeBundle(Framework.java:1074)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.resumeBundles(StartLevelManager.java:616)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.incFWSL(StartLevelManager.java:508)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:299)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.dispatchEvent(StartLevelManager.java:489)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:211)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:321)
+
+!ENTRY org.eclipse.update.core 4 0 2008-10-21 11:25:40.968
+!MESSAGE Digest could not be parsed:Unable to retrieve remote reference "http://download.eclipse.org/modeling/emf/updates/releases/digest.zip". [Server returned HTTP response code: "404 Not Found" for URL: http://download.eclipse.org/modeling/emf/updates/releases/digest.zip.]
+
+!ENTRY org.eclipse.ui 4 0 2008-10-21 11:39:23.750
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (java.lang.NullPointerException)
+	at org.eclipse.swt.SWT.error(SWT.java:3777)
+	at org.eclipse.swt.SWT.error(SWT.java:3695)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3800)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3425)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+Caused by: java.lang.NullPointerException
+	at org.eclipse.update.internal.ui.ConfigurationManagerWindow.updateStatusLine(ConfigurationManagerWindow.java:164)
+	at org.eclipse.update.internal.ui.views.FindUpdatesAction$1.run(FindUpdatesAction.java:80)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:133)
+	... 22 more
+
+!ENTRY org.eclipse.ui 4 0 2008-10-21 11:39:23.750
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (java.lang.NullPointerException)
+	at org.eclipse.swt.SWT.error(SWT.java:3777)
+	at org.eclipse.swt.SWT.error(SWT.java:3695)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3800)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3425)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+Caused by: java.lang.NullPointerException
+	at org.eclipse.update.internal.ui.ConfigurationManagerWindow$3.run(ConfigurationManagerWindow.java:210)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:133)
+	... 22 more
+
+!ENTRY org.eclipse.ui 4 0 2008-10-21 11:39:23.750
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (org.eclipse.swt.SWTException: Widget is disposed)
+	at org.eclipse.swt.SWT.error(SWT.java:3777)
+	at org.eclipse.swt.SWT.error(SWT.java:3695)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3800)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3425)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+Caused by: org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3777)
+	at org.eclipse.swt.SWT.error(SWT.java:3695)
+	at org.eclipse.swt.SWT.error(SWT.java:3666)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:463)
+	at org.eclipse.swt.widgets.Widget.getDisplay(Widget.java:578)
+	at org.eclipse.update.internal.ui.wizards.InstallWizardOperation$2.run(InstallWizardOperation.java:76)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:133)
+	... 22 more
+!SESSION 2008-10-21 11:43:43.500 -----------------------------------------------
+eclipse.buildId=M20080911-1700
+java.version=1.6.0_04
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fr_FR
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.equinox.p2.director 2 0 2008-10-21 11:44:53.328
+!MESSAGE Problems resolving provisioning plan.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2008-10-21 11:44:53.328
+!MESSAGE Unable to satisfy dependency from org.eclipse.wst.sse.ui 1.0.305.v200802142230 to requiredCapability: osgi.bundle/org.eclipse.emf.common/[2.2.0,2.4.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2008-10-21 11:44:53.328
+!MESSAGE Unable to satisfy dependency from org.eclipse.wst.sse.core 1.1.203.v200802140626 to requiredCapability: osgi.bundle/org.eclipse.emf.common/[2.2.0,2.4.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2008-10-21 11:44:53.328
+!MESSAGE Unable to satisfy dependency from org.eclipse.wst.common.core 1.1.101.v200706120315 to requiredCapability: osgi.bundle/org.eclipse.core.runtime/[3.2.0,3.4.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2008-10-21 11:44:53.328
+!MESSAGE Unable to satisfy dependency from org.eclipse.wst.common.core 1.1.101.v200706120315 to requiredCapability: osgi.bundle/org.eclipse.core.resources/[3.2.0,3.4.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2008-10-21 11:44:53.328
+!MESSAGE Unable to satisfy dependency from org.eclipse.wst.common.core 1.1.101.v200706120315 to requiredCapability: osgi.bundle/org.eclipse.core.expressions/[3.2.0,3.4.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2008-10-21 11:44:53.328
+!MESSAGE Unable to satisfy dependency from org.eclipse.wst.common.ui 1.1.200.v200705302225 to requiredCapability: osgi.bundle/org.eclipse.ui.ide/[3.2.0,3.4.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2008-10-21 11:44:53.328
+!MESSAGE Unable to satisfy dependency from org.eclipse.wst.common.ui 1.1.200.v200705302225 to requiredCapability: osgi.bundle/org.eclipse.ui/[3.2.0,3.4.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2008-10-21 11:44:53.328
+!MESSAGE Unable to satisfy dependency from org.eclipse.wst.common.ui 1.1.200.v200705302225 to requiredCapability: osgi.bundle/org.eclipse.core.runtime/[3.2.0,3.4.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2008-10-21 11:44:53.328
+!MESSAGE Unable to satisfy dependency from org.eclipse.wst.common.ui 1.1.200.v200705302225 to requiredCapability: osgi.bundle/org.eclipse.core.resources/[3.2.0,3.4.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2008-10-21 11:44:53.328
+!MESSAGE Unable to satisfy dependency from org.eclipse.wst.common.ui 1.1.200.v200705302225 to requiredCapability: osgi.bundle/org.eclipse.search/[3.2.0,3.4.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2008-10-21 11:44:53.328
+!MESSAGE Unable to satisfy dependency from org.eclipse.wst.common.ui 1.1.200.v200705302225 to requiredCapability: osgi.bundle/org.eclipse.jface.text/[3.2.0,3.4.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2008-10-21 11:44:53.328
+!MESSAGE Unable to satisfy dependency from org.eclipse.wst.common.ui 1.1.200.v200705302225 to requiredCapability: osgi.bundle/org.eclipse.ui.workbench.texteditor/[3.2.0,3.4.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2008-10-21 11:44:53.328
+!MESSAGE Unable to satisfy dependency from org.eclipse.wst.common.environment 1.0.200.v200705302225 to requiredCapability: osgi.bundle/org.eclipse.core.resources/[3.2.0,3.4.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2008-10-21 11:44:53.328
+!MESSAGE Unable to satisfy dependency from org.eclipse.wst.common.emf 1.1.104.v200709131115 to requiredCapability: osgi.bundle/org.eclipse.emf.ecore.xmi/[2.2.0,2.4.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2008-10-21 11:44:53.328
+!MESSAGE Unable to satisfy dependency from org.eclipse.wst.common.emfworkbench.integration 1.1.105.v200802192030 to requiredCapability: osgi.bundle/org.eclipse.emf.edit/[2.2.0,2.4.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2008-10-21 11:44:53.328
+!MESSAGE Unable to satisfy dependency from org.eclipse.wst.common.emfworkbench.integration 1.1.105.v200802192030 to requiredCapability: osgi.bundle/org.eclipse.emf.ecore.xmi/[2.2.0,2.4.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2008-10-21 11:44:53.328
+!MESSAGE Unable to satisfy dependency from org.eclipse.wst.common.frameworks 1.1.103.v200802192030 to requiredCapability: osgi.bundle/org.eclipse.emf.ecore/[2.2.0,2.4.0).
+!SESSION 2008-10-21 11:45:39.578 -----------------------------------------------
+eclipse.buildId=M20080911-1700
+java.version=1.6.0_04
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fr_FR
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.equinox.p2.reconciler.dropins 4 0 2008-10-21 11:45:40.953
+!MESSAGE 
+!STACK 0
+org.osgi.framework.BundleException: The bundle could not be resolved. Reason: Missing Constraint: Import-Package: org.eclipse.equinox.internal.provisional.configurator; version="0.0.0"
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:305)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.resume(AbstractBundle.java:355)
+	at org.eclipse.osgi.framework.internal.core.Framework.resumeBundle(Framework.java:1074)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.resumeBundles(StartLevelManager.java:616)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.incFWSL(StartLevelManager.java:508)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:299)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.dispatchEvent(StartLevelManager.java:489)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:211)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:321)
+
+!ENTRY org.eclipse.ui 4 4 2008-10-21 18:16:01.187
+!MESSAGE Referenced part does not exist yet: org.eclipse.ui.views.ProblemView.
+!SESSION 2008-11-04 22:42:11.796 -----------------------------------------------
+eclipse.buildId=M20080911-1700
+java.version=1.6.0_04
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fr_FR
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.equinox.p2.reconciler.dropins 4 0 2008-11-04 22:42:14.281
+!MESSAGE 
+!STACK 0
+org.osgi.framework.BundleException: The bundle could not be resolved. Reason: Missing Constraint: Import-Package: org.eclipse.equinox.internal.provisional.configurator; version="0.0.0"
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:305)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.resume(AbstractBundle.java:355)
+	at org.eclipse.osgi.framework.internal.core.Framework.resumeBundle(Framework.java:1074)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.resumeBundles(StartLevelManager.java:616)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.incFWSL(StartLevelManager.java:508)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:299)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.dispatchEvent(StartLevelManager.java:489)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:211)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:321)
+!SESSION 2008-11-06 13:24:57.234 -----------------------------------------------
+eclipse.buildId=M20080911-1700
+java.version=1.6.0_04
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fr_FR
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.equinox.p2.reconciler.dropins 4 0 2008-11-06 13:24:59.953
+!MESSAGE 
+!STACK 0
+org.osgi.framework.BundleException: The bundle could not be resolved. Reason: Missing Constraint: Import-Package: org.eclipse.equinox.internal.provisional.configurator; version="0.0.0"
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:305)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.resume(AbstractBundle.java:355)
+	at org.eclipse.osgi.framework.internal.core.Framework.resumeBundle(Framework.java:1074)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.resumeBundles(StartLevelManager.java:616)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.incFWSL(StartLevelManager.java:508)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:299)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.dispatchEvent(StartLevelManager.java:489)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:211)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:321)
+
+!ENTRY com.android.ide.eclipse.editors 2 0 2008-11-06 19:08:59.875
+!MESSAGE AndroidManifest: Ignoring unknown 'ListVie' XML element
+
+!ENTRY com.android.ide.eclipse.editors 2 0 2008-11-06 19:09:00.421
+!MESSAGE AndroidManifest: Ignoring unknown 'ListV' XML element
+
+!ENTRY com.android.ide.eclipse.editors 2 0 2008-11-06 19:09:00.500
+!MESSAGE AndroidManifest: Ignoring unknown 'Lis' XML element
+
+!ENTRY com.android.ide.eclipse.editors 2 0 2008-11-06 19:09:00.562
+!MESSAGE AndroidManifest: Ignoring unknown 'L' XML element
+
+!ENTRY com.android.ide.eclipse.editors 2 0 2008-11-06 19:09:35.093
+!MESSAGE AndroidManifest: Ignoring unknown 'Tiew' XML element
+
+!ENTRY com.android.ide.eclipse.editors 2 0 2008-11-06 19:09:35.828
+!MESSAGE AndroidManifest: Ignoring unknown 'Texiew' XML element
+
+!ENTRY com.android.ide.eclipse.editors 2 0 2008-11-06 19:09:37.218
+!MESSAGE AndroidManifest: Ignoring unknown 'Text' XML element
+
+!ENTRY com.android.ide.eclipse.editors 2 0 2008-11-06 19:09:37.218
+!MESSAGE AndroidManifest: Ignoring unknown 'iew' XML element
+
+!ENTRY com.android.ide.eclipse.editors 2 0 2008-11-06 19:09:38.515
+!MESSAGE AndroidManifest: Ignoring unknown 'iew' XML element
+
+!ENTRY com.android.ide.eclipse.editors 2 0 2008-11-06 19:09:38.625
+!MESSAGE AndroidManifest: Ignoring unknown 'Textiew' XML element
+
+!ENTRY com.android.ide.eclipse.editors 2 0 2008-11-06 19:10:13.437
+!MESSAGE AndroidManifest: Ignoring unknown 'w' XML element
+
+!ENTRY com.android.ide.eclipse.editors 2 0 2008-11-06 19:10:26.953
+!MESSAGE AndroidManifest: Ignoring unknown 'li' XML element
+
+!ENTRY com.android.ide.eclipse.editors 2 0 2008-11-06 19:10:31.515
+!MESSAGE AndroidManifest: Ignoring unknown 'Li' XML element
+
+!ENTRY org.eclipse.ui 4 0 2008-11-06 19:10:39.796
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at com.android.ide.eclipse.editors.layout.UiPropertySheetPage$1.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3823)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3422)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+
+!ENTRY org.eclipse.ui 4 0 2008-11-07 00:47:05.062
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at com.android.ide.eclipse.editors.layout.UiPropertySheetPage$1.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3823)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3422)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+!SESSION 2008-11-08 16:54:02.156 -----------------------------------------------
+eclipse.buildId=M20080911-1700
+java.version=1.6.0_04
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fr_FR
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.equinox.p2.reconciler.dropins 4 0 2008-11-08 16:54:04.656
+!MESSAGE 
+!STACK 0
+org.osgi.framework.BundleException: The bundle could not be resolved. Reason: Missing Constraint: Import-Package: org.eclipse.equinox.internal.provisional.configurator; version="0.0.0"
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:305)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.resume(AbstractBundle.java:355)
+	at org.eclipse.osgi.framework.internal.core.Framework.resumeBundle(Framework.java:1074)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.resumeBundles(StartLevelManager.java:616)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.incFWSL(StartLevelManager.java:508)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:299)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.dispatchEvent(StartLevelManager.java:489)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:211)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:321)
+
+!ENTRY org.eclipse.ui 4 0 2008-11-08 17:18:25.531
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jface.viewers.CustomHashtable.hashCode(CustomHashtable.java:264)
+	at org.eclipse.jface.viewers.CustomHashtable.get(CustomHashtable.java:236)
+	at org.eclipse.jface.viewers.TreeSelection$InitializeData.<init>(TreeSelection.java:60)
+	at org.eclipse.jface.viewers.TreeSelection$InitializeData.<init>(TreeSelection.java:52)
+	at org.eclipse.jface.viewers.TreeSelection.<init>(TreeSelection.java:97)
+	at org.eclipse.jface.viewers.TreeSelection.<init>(TreeSelection.java:108)
+	at com.android.ide.eclipse.editors.ui.tree.UiTreeBlock$UiTreeActions.selectUiNode(Unknown Source)
+	at com.android.ide.eclipse.editors.ui.tree.UiActions$1.run(Unknown Source)
+	at com.android.ide.eclipse.editors.AndroidEditor.editXmlModel(Unknown Source)
+	at com.android.ide.eclipse.editors.ui.tree.UiActions.doRemove(Unknown Source)
+	at com.android.ide.eclipse.editors.ui.tree.UiTreeBlock.doTreeRemove(Unknown Source)
+	at com.android.ide.eclipse.editors.ui.tree.UiTreeBlock$7.widgetSelected(Unknown Source)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:228)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3823)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3422)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+!SESSION 2008-11-09 11:01:09.937 -----------------------------------------------
+eclipse.buildId=M20080911-1700
+java.version=1.6.0_04
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fr_FR
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.equinox.p2.reconciler.dropins 4 0 2008-11-09 11:01:16.453
+!MESSAGE 
+!STACK 0
+org.osgi.framework.BundleException: The bundle could not be resolved. Reason: Missing Constraint: Import-Package: org.eclipse.equinox.internal.provisional.configurator; version="0.0.0"
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:305)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.resume(AbstractBundle.java:355)
+	at org.eclipse.osgi.framework.internal.core.Framework.resumeBundle(Framework.java:1074)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.resumeBundles(StartLevelManager.java:616)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.incFWSL(StartLevelManager.java:508)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:299)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.dispatchEvent(StartLevelManager.java:489)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:211)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:321)
+
+!ENTRY org.eclipse.osgi 2 0 2008-11-09 11:01:57.109
+!MESSAGE While loading class "org.eclipse.mylyn.tasks.ui.TasksUiImages", thread "Thread[main,6,main]" timed out waiting (5000ms) for thread "Thread[Worker-3,5,main]" to finish starting bundle "initial@reference:file:plugins/org.eclipse.mylyn.tasks.ui_3.0.2.v20080918-1100-e3x.jar/ [192]". To avoid deadlock, thread "Thread[main,6,main]" is proceeding but "org.eclipse.mylyn.tasks.ui.TasksUiImages" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "initial@reference:file:plugins/org.eclipse.mylyn.tasks.ui_3.0.2.v20080918-1100-e3x.jar/" by thread "Worker-3".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1144)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:263)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:400)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:427)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:368)
+	at org.eclipse.osgi.framework.internal.core.SingleSourcePackage.loadClass(SingleSourcePackage.java:33)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:441)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:397)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:385)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:251)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:319)
+	at org.eclipse.mylyn.context.ui.AbstractFocusViewAction.<init>(AbstractFocusViewAction.java:215)
+	at org.eclipse.mylyn.internal.context.ui.actions.FocusOutlineAction.<init>(FocusOutlineAction.java:43)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at java.lang.Class.newInstance0(Class.java:355)
+	at java.lang.Class.newInstance(Class.java:308)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:170)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:867)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:51)
+	at org.eclipse.ui.internal.WorkbenchPlugin.createExtension(WorkbenchPlugin.java:259)
+	at org.eclipse.ui.internal.PluginAction.createDelegate(PluginAction.java:122)
+	at org.eclipse.ui.internal.PluginAction.selectionChanged(PluginAction.java:275)
+	at org.eclipse.ui.internal.PluginAction.selectionChanged(PluginAction.java:289)
+	at org.eclipse.ui.part.PageBookView$4.run(PageBookView.java:246)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.core.runtime.Platform.run(Platform.java:880)
+	at org.eclipse.ui.part.PageBookView$SelectionManager.selectionChanged(PageBookView.java:244)
+	at org.eclipse.ui.part.PageBookView$SelectionProvider.selectionChanged(PageBookView.java:310)
+	at org.eclipse.ui.part.PageBookView.pageSelectionChanged(PageBookView.java:883)
+	at org.eclipse.ui.part.PageBookView.access$2(PageBookView.java:878)
+	at org.eclipse.ui.part.PageBookView$2.selectionChanged(PageBookView.java:154)
+	at org.eclipse.jface.viewers.Viewer$2.run(Viewer.java:162)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.core.runtime.Platform.run(Platform.java:880)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:48)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+	at org.eclipse.jface.viewers.Viewer.fireSelectionChanged(Viewer.java:160)
+	at org.eclipse.jface.viewers.StructuredViewer.updateSelection(StructuredViewer.java:2062)
+	at org.eclipse.jface.viewers.StructuredViewer.setSelection(StructuredViewer.java:1638)
+	at org.eclipse.jface.viewers.TreeViewer.setSelection(TreeViewer.java:1104)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaOutlinePage.select(JavaOutlinePage.java:1196)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.synchronizeOutlinePage(JavaEditor.java:2059)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.synchronizeOutlinePage(JavaEditor.java:2046)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.selectionChanged(JavaEditor.java:2166)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$4.run(CompilationUnitEditor.java:1624)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3800)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3425)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 76 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1144)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:263)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:400)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:427)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:368)
+	at org.eclipse.osgi.framework.internal.core.SingleSourcePackage.loadClass(SingleSourcePackage.java:33)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:441)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:397)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:385)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:251)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:319)
+	at org.eclipse.mylyn.context.ui.AbstractFocusViewAction.<init>(AbstractFocusViewAction.java:215)
+	at org.eclipse.mylyn.internal.context.ui.actions.FocusOutlineAction.<init>(FocusOutlineAction.java:43)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at java.lang.Class.newInstance0(Class.java:355)
+	at java.lang.Class.newInstance(Class.java:308)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:170)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:867)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:51)
+	at org.eclipse.ui.internal.WorkbenchPlugin.createExtension(WorkbenchPlugin.java:259)
+	at org.eclipse.ui.internal.PluginAction.createDelegate(PluginAction.java:122)
+	at org.eclipse.ui.internal.PluginAction.selectionChanged(PluginAction.java:275)
+	at org.eclipse.ui.internal.PluginAction.selectionChanged(PluginAction.java:289)
+	at org.eclipse.ui.part.PageBookView$4.run(PageBookView.java:246)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.core.runtime.Platform.run(Platform.java:880)
+	at org.eclipse.ui.part.PageBookView$SelectionManager.selectionChanged(PageBookView.java:244)
+	at org.eclipse.ui.part.PageBookView$SelectionProvider.selectionChanged(PageBookView.java:310)
+	at org.eclipse.ui.part.PageBookView.pageSelectionChanged(PageBookView.java:883)
+	at org.eclipse.ui.part.PageBookView.access$2(PageBookView.java:878)
+	at org.eclipse.ui.part.PageBookView$2.selectionChanged(PageBookView.java:154)
+	at org.eclipse.jface.viewers.Viewer$2.run(Viewer.java:162)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.core.runtime.Platform.run(Platform.java:880)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:48)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+	at org.eclipse.jface.viewers.Viewer.fireSelectionChanged(Viewer.java:160)
+	at org.eclipse.jface.viewers.StructuredViewer.updateSelection(StructuredViewer.java:2062)
+	at org.eclipse.jface.viewers.StructuredViewer.setSelection(StructuredViewer.java:1638)
+	at org.eclipse.jface.viewers.TreeViewer.setSelection(TreeViewer.java:1104)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaOutlinePage.select(JavaOutlinePage.java:1196)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.synchronizeOutlinePage(JavaEditor.java:2059)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.synchronizeOutlinePage(JavaEditor.java:2046)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.selectionChanged(JavaEditor.java:2166)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$4.run(CompilationUnitEditor.java:1624)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3800)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3425)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+
+!ENTRY com.android.ide.eclipse.editors 2 0 2008-11-09 11:40:21.531
+!MESSAGE AndroidManifest: Ignoring unknown '!' XML element
+
+!ENTRY com.android.ide.eclipse.editors 2 0 2008-11-09 11:40:22.078
+!MESSAGE AndroidManifest: Ignoring unknown '!' XML element
+
+!ENTRY com.android.ide.eclipse.editors 2 0 2008-11-09 15:43:41.203
+!MESSAGE AndroidManifest: Ignoring unknown '!' XML element
+
+!ENTRY com.android.ide.eclipse.editors 2 0 2008-11-09 15:43:41.828
+!MESSAGE AndroidManifest: Ignoring unknown '!' XML element
+
+!ENTRY com.android.ide.eclipse.editors 2 0 2008-11-09 15:54:17.234
+!MESSAGE AndroidManifest: Ignoring unknown '!' XML element
+
+!ENTRY com.android.ide.eclipse.editors 2 0 2008-11-09 15:54:17.640
+!MESSAGE AndroidManifest: Ignoring unknown '!' XML element
+
+!ENTRY com.android.ide.eclipse.editors 2 0 2008-11-09 16:18:54.187
+!MESSAGE AndroidManifest: Ignoring unknown 'LLayout' XML element
+
+!ENTRY com.android.ide.eclipse.editors 2 0 2008-11-09 16:18:55.312
+!MESSAGE AndroidManifest: Ignoring unknown 'LinLayout' XML element
+
+!ENTRY com.android.ide.eclipse.editors 2 0 2008-11-09 16:18:55.625
+!MESSAGE AndroidManifest: Ignoring unknown 'LineaLayout' XML element
+
+!ENTRY com.android.ide.eclipse.editors 2 0 2008-11-09 16:18:58.921
+!MESSAGE AndroidManifest: Ignoring unknown 'Layout' XML element
+
+!ENTRY com.android.ide.eclipse.editors 2 0 2008-11-09 16:19:00.046
+!MESSAGE AndroidManifest: Ignoring unknown 'LiLayout' XML element
+
+!ENTRY com.android.ide.eclipse.editors 2 0 2008-11-09 16:19:00.875
+!MESSAGE AndroidManifest: Ignoring unknown 'LineLayout' XML element
+
+!ENTRY com.android.ide.eclipse.editors 2 0 2008-11-09 16:19:01.093
+!MESSAGE AndroidManifest: Ignoring unknown 'LineazLayout' XML element
+
+!ENTRY com.android.ide.eclipse.editors 2 0 2008-11-09 16:21:13.656
+!MESSAGE AndroidManifest: Ignoring unknown 'Layout' XML element
+
+!ENTRY com.android.ide.eclipse.editors 2 0 2008-11-09 16:21:14.281
+!MESSAGE AndroidManifest: Ignoring unknown 'LLayout' XML element
+
+!ENTRY org.eclipse.core.resources 4 2 2008-11-09 16:59:14.015
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.IndexOutOfBoundsException: Index: 2, Size: 2
+	at java.util.ArrayList.RangeCheck(ArrayList.java:547)
+	at java.util.ArrayList.get(ArrayList.java:322)
+	at com.android.ide.eclipse.editors.resources.manager.ResourceFolder.removeFile(Unknown Source)
+	at com.android.ide.eclipse.editors.resources.manager.ResourceManager.fileChanged(Unknown Source)
+	at com.android.ide.eclipse.editors.resources.manager.ResourceMonitor$DeltaVisitor.visit(Unknown Source)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:68)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:79)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:79)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:79)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:79)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:48)
+	at com.android.ide.eclipse.editors.resources.manager.ResourceMonitor.resourceChanged(Unknown Source)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:288)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:282)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:148)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:313)
+	at org.eclipse.core.internal.resources.Workspace.checkpoint(Workspace.java:367)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:265)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:308)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.access$1(UIPerformChangeOperation.java:1)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation$1.run(UIPerformChangeOperation.java:66)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation$2.run(UIPerformChangeOperation.java:84)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3800)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3425)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:173)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:382)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.run(RefactoringWizardDialog2.java:317)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizard.internalPerformFinish(RefactoringWizard.java:558)
+	at org.eclipse.ltk.ui.refactoring.UserInputWizardPage.performFinish(UserInputWizardPage.java:154)
+	at org.eclipse.jdt.internal.ui.refactoring.reorg.DeleteWizard$DeleteInputPage.performFinish(DeleteWizard.java:175)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizard.performFinish(RefactoringWizard.java:622)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.okPressed(RefactoringWizardDialog2.java:446)
+	at org.eclipse.jface.dialogs.Dialog.buttonPressed(Dialog.java:472)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Dialog.java:624)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:228)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3823)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3422)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:825)
+	at org.eclipse.jface.window.Window.open(Window.java:801)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation$1.run(RefactoringWizardOpenOperation.java:144)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.run(RefactoringWizardOpenOperation.java:156)
+	at org.eclipse.jdt.internal.ui.refactoring.actions.RefactoringStarter.activate(RefactoringStarter.java:37)
+	at org.eclipse.jdt.internal.ui.refactoring.UserInterfaceStarter.activate(UserInterfaceStarter.java:60)
+	at org.eclipse.jdt.internal.corext.refactoring.RefactoringExecutionStarter.startDeleteRefactoring(RefactoringExecutionStarter.java:282)
+	at org.eclipse.jdt.internal.ui.refactoring.reorg.DeleteAction.run(DeleteAction.java:75)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchRun(SelectionDispatchAction.java:274)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.run(SelectionDispatchAction.java:250)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:498)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:583)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:500)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:411)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3823)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3422)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+
+!ENTRY com.android.ide.eclipse.editors 2 0 2008-11-09 17:54:45.125
+!MESSAGE AndroidManifest: Ignoring unknown '!' XML element
+
+!ENTRY com.android.ide.eclipse.editors 2 0 2008-11-09 17:54:45.703
+!MESSAGE AndroidManifest: Ignoring unknown '!' XML element
+
+!ENTRY org.eclipse.ui 4 0 2008-11-09 19:42:39.953
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (java.lang.OutOfMemoryError: unable to create new native thread)
+	at org.eclipse.swt.SWT.error(SWT.java:3777)
+	at org.eclipse.swt.SWT.error(SWT.java:3695)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3800)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3425)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+Caused by: java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:597)
+	at org.eclipse.jface.text.source.projection.ProjectionSummary$Summarizer.<init>(ProjectionSummary.java:50)
+	at org.eclipse.jface.text.source.projection.ProjectionSummary.updateSummaries(ProjectionSummary.java:144)
+	at org.eclipse.jface.text.source.projection.ProjectionViewer$AnnotationModelListener.processModelChanged(ProjectionViewer.java:120)
+	at org.eclipse.jface.text.source.projection.ProjectionViewer$AnnotationModelListener.modelChanged(ProjectionViewer.java:109)
+	at org.eclipse.jface.text.source.AnnotationModel.fireModelChanged(AnnotationModel.java:614)
+	at org.eclipse.jface.text.source.AnnotationModel$InternalModelListener.modelChanged(AnnotationModel.java:261)
+	at org.eclipse.jface.text.source.AnnotationModel.fireModelChanged(AnnotationModel.java:614)
+	at org.eclipse.jface.text.source.AnnotationModel.fireModelChanged(AnnotationModel.java:580)
+	at org.eclipse.jface.text.source.AnnotationModel.addAnnotation(AnnotationModel.java:447)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitDocumentProvider$CompilationUnitAnnotationModel.addAnnotation(CompilationUnitDocumentProvider.java:788)
+	at org.eclipse.jface.text.source.AnnotationModel.addAnnotation(AnnotationModel.java:375)
+	at org.eclipse.debug.internal.ui.InstructionPointerManager.addAnnotation(InstructionPointerManager.java:139)
+	at org.eclipse.debug.internal.ui.sourcelookup.SourceLookupFacility.display(SourceLookupFacility.java:243)
+	at org.eclipse.debug.ui.DebugUITools.displaySource(DebugUITools.java:776)
+	at org.eclipse.debug.internal.ui.elements.adapters.StackFrameSourceDisplayAdapter$SourceDisplayJob.runInUIThread(StackFrameSourceDisplayAdapter.java:167)
+	at org.eclipse.ui.progress.UIJob$1.run(UIJob.java:94)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:133)
+	... 22 more
+!SESSION 2008-11-10 00:42:59.218 -----------------------------------------------
+eclipse.buildId=M20080911-1700
+java.version=1.6.0_04
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fr_FR
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.equinox.p2.reconciler.dropins 4 0 2008-11-10 00:43:05.468
+!MESSAGE 
+!STACK 0
+org.osgi.framework.BundleException: The bundle could not be resolved. Reason: Missing Constraint: Import-Package: org.eclipse.equinox.internal.provisional.configurator; version="0.0.0"
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:305)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.resume(AbstractBundle.java:355)
+	at org.eclipse.osgi.framework.internal.core.Framework.resumeBundle(Framework.java:1074)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.resumeBundles(StartLevelManager.java:616)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.incFWSL(StartLevelManager.java:508)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:299)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.dispatchEvent(StartLevelManager.java:489)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:211)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:321)
+
+!ENTRY org.eclipse.osgi 2 0 2008-11-10 00:43:31.765
+!MESSAGE While loading class "com.android.ide.eclipse.editors.layout.MatchingStrategy", thread "Thread[main,6,main]" timed out waiting (5000ms) for thread "Thread[Thread-7,1,main]" to finish starting bundle "initial@reference:file:plugins/com.android.ide.eclipse.editors_0.8.0.v200809220836-110569.jar/ [243]". To avoid deadlock, thread "Thread[main,6,main]" is proceeding but "com.android.ide.eclipse.editors.layout.MatchingStrategy" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "initial@reference:file:plugins/com.android.ide.eclipse.editors_0.8.0.v200809220836-110569.jar/" by thread "Thread-7".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1144)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:263)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:400)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:427)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:368)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:444)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:397)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:385)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:251)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.loadClass(BundleLoader.java:313)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:227)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1274)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:160)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:867)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:51)
+	at org.eclipse.ui.internal.WorkbenchPlugin.createExtension(WorkbenchPlugin.java:259)
+	at org.eclipse.ui.internal.registry.EditorDescriptor.getEditorMatchingStrategy(EditorDescriptor.java:620)
+	at org.eclipse.ui.internal.EditorManager.findEditors(EditorManager.java:486)
+	at org.eclipse.ui.internal.EditorManager.findEditors(EditorManager.java:436)
+	at org.eclipse.ui.internal.EditorManager.findEditor(EditorManager.java:399)
+	at org.eclipse.ui.internal.EditorManager.findEditor(EditorManager.java:381)
+	at org.eclipse.ui.internal.WorkbenchPage.findEditor(WorkbenchPage.java:2063)
+	at org.eclipse.ui.NavigationLocation.getEditorPart(NavigationLocation.java:44)
+	at org.eclipse.ui.NavigationLocation.getText(NavigationLocation.java:60)
+	at org.eclipse.ui.internal.NavigationHistoryEntry.<init>(NavigationHistoryEntry.java:49)
+	at org.eclipse.ui.internal.NavigationHistory.createEntry(NavigationHistory.java:655)
+	at org.eclipse.ui.internal.NavigationHistory.addEntry(NavigationHistory.java:371)
+	at org.eclipse.ui.internal.NavigationHistory.access$10(NavigationHistory.java:352)
+	at org.eclipse.ui.internal.NavigationHistory$2.run(NavigationHistory.java:199)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3800)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3425)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 57 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1144)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:263)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:400)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:427)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:368)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:444)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:397)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:385)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:251)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.loadClass(BundleLoader.java:313)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:227)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1274)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:160)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:867)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:51)
+	at org.eclipse.ui.internal.WorkbenchPlugin.createExtension(WorkbenchPlugin.java:259)
+	at org.eclipse.ui.internal.registry.EditorDescriptor.getEditorMatchingStrategy(EditorDescriptor.java:620)
+	at org.eclipse.ui.internal.EditorManager.findEditors(EditorManager.java:486)
+	at org.eclipse.ui.internal.EditorManager.findEditors(EditorManager.java:436)
+	at org.eclipse.ui.internal.EditorManager.findEditor(EditorManager.java:399)
+	at org.eclipse.ui.internal.EditorManager.findEditor(EditorManager.java:381)
+	at org.eclipse.ui.internal.WorkbenchPage.findEditor(WorkbenchPage.java:2063)
+	at org.eclipse.ui.NavigationLocation.getEditorPart(NavigationLocation.java:44)
+	at org.eclipse.ui.NavigationLocation.getText(NavigationLocation.java:60)
+	at org.eclipse.ui.internal.NavigationHistoryEntry.<init>(NavigationHistoryEntry.java:49)
+	at org.eclipse.ui.internal.NavigationHistory.createEntry(NavigationHistory.java:655)
+	at org.eclipse.ui.internal.NavigationHistory.addEntry(NavigationHistory.java:371)
+	at org.eclipse.ui.internal.NavigationHistory.access$10(NavigationHistory.java:352)
+	at org.eclipse.ui.internal.NavigationHistory$2.run(NavigationHistory.java:199)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3800)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3425)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+
+!ENTRY org.eclipse.osgi 2 0 2008-11-10 00:43:34.000
+!MESSAGE While loading class "com.android.ide.eclipse.editors.manifest.descriptors.AndroidManifestDescriptors", thread "Thread[Worker-4,5,main]" timed out waiting (5000ms) for thread "Thread[Thread-7,1,main]" to finish starting bundle "initial@reference:file:plugins/com.android.ide.eclipse.editors_0.8.0.v200809220836-110569.jar/ [243]". To avoid deadlock, thread "Thread[Worker-4,5,main]" is proceeding but "com.android.ide.eclipse.editors.manifest.descriptors.AndroidManifestDescriptors" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "initial@reference:file:plugins/com.android.ide.eclipse.editors_0.8.0.v200809220836-110569.jar/" by thread "Thread-7".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1144)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:263)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:400)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:427)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:368)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:444)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:397)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:385)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:251)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:319)
+	at com.android.ide.eclipse.editors.EditorsPlugin$SdkPathChangedListener$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 15 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1144)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:263)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:400)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:427)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:368)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:444)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:397)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:385)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:251)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:319)
+	at com.android.ide.eclipse.editors.EditorsPlugin$SdkPathChangedListener$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.osgi 2 0 2008-11-10 00:43:39.015
+!MESSAGE While loading class "com.android.ide.eclipse.editors.descriptors.AttributeDescriptor", thread "Thread[Worker-4,5,main]" timed out waiting (5000ms) for thread "Thread[Thread-7,1,main]" to finish starting bundle "initial@reference:file:plugins/com.android.ide.eclipse.editors_0.8.0.v200809220836-110569.jar/ [243]". To avoid deadlock, thread "Thread[Worker-4,5,main]" is proceeding but "com.android.ide.eclipse.editors.descriptors.AttributeDescriptor" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "initial@reference:file:plugins/com.android.ide.eclipse.editors_0.8.0.v200809220836-110569.jar/" by thread "Thread-7".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1144)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:263)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:400)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:427)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:368)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:444)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:397)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:385)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:251)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:319)
+	at com.android.ide.eclipse.editors.EditorsPlugin$SdkPathChangedListener$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 15 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1144)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:263)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:400)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:427)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:368)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:444)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:397)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:385)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:251)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:319)
+	at com.android.ide.eclipse.editors.EditorsPlugin$SdkPathChangedListener$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)

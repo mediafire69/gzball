@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.android.hello.R.layout"/>
+<fullyQualifiedTypeName name="com.android.demo.notepad1.R.layout"/>
+<fullyQualifiedTypeName name="android.graphics.Path.FillType"/>
+<fullyQualifiedTypeName name="com.android.demo.notepad1.R.string"/>
+<fullyQualifiedTypeName name="com.android.app.imageManager.ImageManager.ImageAdapter"/>
+<fullyQualifiedTypeName name="android.graphics.Bitmap"/>
+<fullyQualifiedTypeName name="android.util.Log"/>
+<fullyQualifiedTypeName name="java.io.FileFilter"/>
+<fullyQualifiedTypeName name="com.android.app.imageManager.ImageManager.FiltreSimple"/>
+<fullyQualifiedTypeName name="android.widget.ImageView"/>
+<fullyQualifiedTypeName name="android.view.View.OnClickListener"/>
+<fullyQualifiedTypeName name="com.android.app.imageManager.R.id"/>
+<fullyQualifiedTypeName name="android.widget.EditText"/>
+<fullyQualifiedTypeName name="android.net.Uri.Builder"/>
+<fullyQualifiedTypeName name="com.android.app.imageManager.NotesDbAdapter"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="com.android.app.imageManager.ImageAdapter"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+</qualifiedTypeNameHistroy>
