@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">ImageManager</string>
+<string name="menu_add_comment">Add comment</string>
+<string name="menu_delete">Del. comment</string>
+<string name="save">Enregistrer</string>
+</resources>
