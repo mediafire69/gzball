@@ -1,0 +1,88 @@
+package com.android.app.imageManager;
+
+import java.io.File;
+
+import android.content.Context;
+import android.content.res.TypedArray;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.util.Log;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.BaseAdapter;
+import android.widget.Gallery;
+import android.widget.ImageView;
+
+public class ImageAdapter extends BaseAdapter {
+	private int mGalleryItemBackground;
+
+	private String[] imgsTokens;
+	
+	private Bitmap[] photos;
+	
+	private Context mContext;
+
+	public ImageAdapter(Context c) {
+		mContext = c;
+		File dir = new File("/sdcard/appli/");
+		
+		File[] files = dir.listFiles(new FiltreSimple(".jpg"));
+		imgsTokens = new String[files.length];
+		photos = new Bitmap[imgsTokens.length];
+
+
+		TypedArray a = obtainStyledAttributes(android.R.styleable.Theme);
+		/*mGalleryItemBackground = a.getResourceId(
+				android.R.styleable.Theme_galleryItemBackground, 0);*/
+		for (int i = 0; i < files.length; i++) {
+			Log.println(Log.INFO, ""+ i, "/sdcard/appli/" + imgsTokens[i]);
+			//Log.d("" + i, "/sdcard/pictures/" + imgsTokens[i] + ".jpg");
+			try {
+				imgsTokens[i] = files[i].getName();
+
+				photos[i] = BitmapFactory.decodeFile("/sdcard/appli/"
+						+ imgsTokens[i]);
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+		}
+		a.recycle();
+	}
+
+	public String getFileNameAtPosition(int position) {
+		return imgsTokens[position];
+	}
+
+	public int getCount() {
+		if (photos != null)
+			return photos.length;
+		else
+			return 0;
+	}
+
+	public Object getItem(int position) {
+		return photos[position];
+	}
+
+	public long getItemId(int position) {
+		return position;
+	}
+
+	public View getView(int position, View convertView, ViewGroup parent) {
+		ImageView i = new ImageView(mContext);
+
+		i.setImageBitmap(photos[position]);
+		//i.setImageResource(mImageIds[position]);
+		i.setScaleType(ImageView.ScaleType.FIT_XY);
+		i.setLayoutParams(new Gallery.LayoutParams(136, 88));
+
+		// The preferred Gallery item background
+		i.setBackgroundResource(mGalleryItemBackground);
+
+		return i;
+	}
+
+
+
+}
+

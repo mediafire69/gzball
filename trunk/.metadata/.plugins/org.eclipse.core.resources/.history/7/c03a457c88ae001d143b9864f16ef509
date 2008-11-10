@@ -1,0 +1,8 @@
+package com.android.app.imageManager;
+
+public class FiltreSimpleData {
+	public String extension;
+
+	public FiltreSimpleData() {
+	}
+}

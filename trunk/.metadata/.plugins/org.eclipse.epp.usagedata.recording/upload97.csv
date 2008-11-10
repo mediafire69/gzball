@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,editor,org.eclipse.jdt.ui,3.4.1.r341_v20080827-1100,org.eclipse.jdt.ui.CompilationUnitEditor,1226164917765
+activated,view,org.eclipse.ui.console,3.3.0.v20080529-1300,org.eclipse.ui.console.ConsoleView,1226164919562
+activated,editor,org.eclipse.jdt.ui,3.4.1.r341_v20080827-1100,org.eclipse.jdt.ui.CompilationUnitEditor,1226164921906
+activated,view,org.eclipse.debug.ui,3.4.1.v20080811_r341,org.eclipse.debug.ui.DebugView,1226164924906
+executed,command,org.eclipse.debug.ui,3.4.1.v20080811_r341,org.eclipse.debug.ui.commands.Terminate,1226164924968
+no handler,command,org.eclipse.ui,3.4.1.M20080910-0800,org.eclipse.ui.edit.delete,1226164941406
+deactivated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1226164946921
+activated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1226164950031
+activated,editor,org.eclipse.jdt.ui,3.4.1.r341_v20080827-1100,org.eclipse.jdt.ui.CompilationUnitEditor,1226164970375
+activated,view,org.eclipse.ui.console,3.3.0.v20080529-1300,org.eclipse.ui.console.ConsoleView,1226164984187
+activated,editor,org.eclipse.jdt.ui,3.4.1.r341_v20080827-1100,org.eclipse.jdt.ui.CompilationUnitEditor,1226164991312
+executed,command,org.eclipse.ui,3.4.1.M20080910-0800,org.eclipse.ui.edit.text.contentAssist.proposals,1226164995734
+executed,command,org.eclipse.ui,3.4.1.M20080910-0800,org.eclipse.ui.edit.text.contentAssist.proposals,1226165004968
+executed,command,org.eclipse.ui,3.4.1.M20080910-0800,org.eclipse.ui.edit.text.contentAssist.proposals,1226165005671
+executed,command,org.eclipse.ui,3.4.1.M20080910-0800,org.eclipse.ui.edit.text.contentAssist.proposals,1226165007125
+executed,command,org.eclipse.jdt.ui,3.4.1.r341_v20080827-1100,org.eclipse.jdt.ui.edit.text.java.organize.imports,1226165017546
+executed,command,org.eclipse.ui,3.4.1.M20080910-0800,org.eclipse.ui.edit.delete,1226165026015
+executed,command,org.eclipse.ui,3.4.1.M20080910-0800,org.eclipse.ui.edit.text.contentAssist.proposals,1226165027906
+executed,command,org.eclipse.ui,3.4.1.M20080910-0800,org.eclipse.ui.file.save,1226165043156
+deactivated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1226165043375
+activated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1226165049765
+activated,view,org.eclipse.debug.ui,3.4.1.v20080811_r341,org.eclipse.debug.ui.DebugView,1226165051359
+activated,view,org.eclipse.ui.console,3.3.0.v20080529-1300,org.eclipse.ui.console.ConsoleView,1226165065765
+deactivated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1226165082765
+activated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1226165082765

@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+executed,command,org.eclipse.jdt.ui,3.4.1.r341_v20080827-1100,org.eclipse.jdt.ui.edit.text.java.toggle.comment,1224584376578
+deactivated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1224584412781
+activated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1224584414468
+executed,command,org.eclipse.ui,3.4.1.M20080910-0800,org.eclipse.ui.edit.paste,1224584414937
+deactivated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1224584417812
+activated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1224584458296
+deactivated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1224584468890
+activated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1224584471421
+started,bundle,org.eclipse.mylyn.java.ui,3.0.2.v20080918-1100-e3x,org.eclipse.mylyn.java.ui,1224584506031
+deactivated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1224584512562
+activated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1224584513796
+executed,command,org.eclipse.jdt.ui,3.4.1.r341_v20080827-1100,org.eclipse.jdt.ui.edit.text.java.organize.imports,1224584535734
+deactivated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1224584544031
+no handler,command,org.eclipse.ui,3.4.1.M20080910-0800,org.eclipse.ui.edit.text.contentAssist.proposals,1224584560703
+no handler,command,org.eclipse.ui,3.4.1.M20080910-0800,org.eclipse.ui.edit.text.contentAssist.proposals,1224584562875
+no handler,command,org.eclipse.ui,3.4.1.M20080910-0800,org.eclipse.ui.edit.text.contentAssist.proposals,1224584563703
+activated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1224584572984
+executed,command,org.eclipse.ui,3.4.1.M20080910-0800,org.eclipse.ui.edit.text.contentAssist.proposals,1224584584875
+deactivated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1224584588093
+activated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1224584594046
+executed,command,org.eclipse.ui,3.4.1.M20080910-0800,org.eclipse.ui.file.save,1224584599296
+executed,command,org.eclipse.ui,3.4.1.M20080910-0800,org.eclipse.ui.file.refresh,1224584601609
+activated,view,org.eclipse.ui.console,3.3.0.v20080529-1300,org.eclipse.ui.console.ConsoleView,1224584605375
+deactivated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1224584613125
+activated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1224584614187

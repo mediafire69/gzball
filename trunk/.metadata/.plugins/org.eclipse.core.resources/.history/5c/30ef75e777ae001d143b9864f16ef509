@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/layout"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<EditText android:id="@+id/widget232" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="EditText"
+		android:textSize="18sp" android:layout_centerVertical="true"
+		android:layout_alignParentLeft="true">
+	</EditText>
+	<Button android:id="@+id/widget233" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="Button"
+		android:layout_below="@+id/widget232" android:layout_centerHorizontal="true">
+	</Button>
+	<TextView android:id="@+id/title" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="Enter the description"
+		android:gravity="center" android:layout_above="@+id/widget232"
+		android:layout_alignParentLeft="true">
+	</TextView>
+</RelativeLayout>
