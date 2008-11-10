@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Copy 1 elements(s) to &apos;GZBall1/src/com.insa.sffs.android.gzball&apos;&#x0D;&#x0A;- Original project: &apos;Snake&apos;&#x0D;&#x0A;- Destination element: &apos;GZBall1/src/com.insa.sffs.android.gzball&apos;&#x0D;&#x0A;- Original element: &apos;com.example.android.snake.TileView.java&apos;" description="Copy compilation unit" destination="=GZBall1/src&lt;com.insa.sffs.android.gzball" element1="/src&lt;com.example.android.snake{TileView.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1224680594015" units="1" version="1.0"/>
-</session>
