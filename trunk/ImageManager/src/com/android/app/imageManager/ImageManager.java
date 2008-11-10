@@ -91,7 +91,6 @@ public class ImageManager extends Activity {
 		switch(item.getItemId()) {
 		case ADD_COMMENT_ID:
 			createNote();
-			updateDescription();
 			return true;
 		case DEL_COMMENT_ID:
 			mDbHelper.deleteNote(filename());
@@ -141,6 +140,7 @@ public class ImageManager extends Activity {
 	protected void onActivityResult(int requestCode, int resultCode,
             Intent data) {
 		super.onActivityResult(requestCode, resultCode, data);
+		updateDescription();
     }
 	
 
