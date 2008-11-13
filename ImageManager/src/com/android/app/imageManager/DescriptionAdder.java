@@ -20,15 +20,29 @@ import android.widget.EditText;
 public class DescriptionAdder extends Activity {
 
 	
-	
+	/**
+	 * 
+	 */
 	private Button validate;
 	
+	/**
+	 * 
+	 */
 	private EditText editText;
 	
+	/**
+	 * 
+	 */
 	private String filename;
 
+	/**
+	 * 
+	 */
 	private NotesDbAdapter mDbHelper;
 	
+	/**
+	 * 
+	 */
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		// Be sure to call the super class.
@@ -74,29 +88,45 @@ public class DescriptionAdder extends Activity {
         });
     }
 	
+	/**
+	 * 
+	 */
     @Override
     protected void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
         outState.putString(NotesDbAdapter.KEY_FILENAME, filename);
     }
     
+    /**
+     * 
+     */
     @Override
     protected void onPause() {
         super.onPause();
         saveState();
     }
     
+    /**
+     * 
+     */
     @Override
     protected void onResume() {
         super.onResume();
         populateFields();
     }
     
+    /**
+     * 
+     */
     private void saveState() {
         String description = editText.getText().toString();
 
         mDbHelper.createOrUpdateNote(filename, description);
     }
+    
+    /**
+     * 
+     */
     private void populateFields() {
         if (filename != null) {
             Cursor note = mDbHelper.fetchNote(filename);
