@@ -45,7 +45,7 @@ public class ImageAdapter extends BaseAdapter {
 		File dir = new File(path);
 		
 		// Tables creation
-		File[] files = dir.listFiles(new FiltreSimple(extension));
+		File[] files = dir.listFiles(new ExtensionFilter(extension));
 		imgsTokens = new String[files.length];
 		photos = new Bitmap[imgsTokens.length];
 

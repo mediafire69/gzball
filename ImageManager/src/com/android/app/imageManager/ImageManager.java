@@ -21,7 +21,9 @@ import android.widget.AdapterView.OnItemSelectedListener;
  */
 public class ImageManager extends Activity {
 
-	// 
+	// Some request codes useful when starting a sub-activity. They are
+	// important in the function onActivityResult which can control which
+	// activity has done his job (when many sub-activities)
 	private static final int ACTIVITY_CREATE = 0;
 	private static final int ACTIVITY_EDIT = 1;
 
@@ -30,8 +32,9 @@ public class ImageManager extends Activity {
 	private static final int DEL_COMMENT_ID = Menu.FIRST + 1;
 
 	/**
-     * 
-     */
+	 * Interface between the database and your application. The database is used
+	 * for saving descriptions of the images.
+	 */
 	private NotesDbAdapter mDbHelper;
 
 	/**
@@ -65,16 +68,12 @@ public class ImageManager extends Activity {
 		// Set the activity content from a layout resource.
 		setContentView(R.layout.main);
 
-		// Reference the Gallery view
+		// Reference all the widget in the UI
 		gallery = (Gallery) findViewById(R.id.gallery);
-
-		// Reference the Image view
 		imageView = (ImageView) findViewById(R.id.image);
-
-		// Reference the Text view
 		textView = (TextView) findViewById(R.id.title);
 
-		// Set the adapter to our custom adapter (below)
+		// Set the adapter to our custom adapter (ImageAdapter)
 		gallery.setAdapter(new ImageAdapter(this, "/sdcard/apppli", ".jpg"));
 
 		// Set a item Selected listener, and show in the imageView the selected
@@ -106,8 +105,7 @@ public class ImageManager extends Activity {
 			}
 		});
 
-		// Create the interface between the database (used for saving
-		// descriptions of the images) and your application.
+		// Create the NotesDbAdapter
 		mDbHelper = new NotesDbAdapter(this);
 		mDbHelper.open();
 
@@ -154,9 +152,9 @@ public class ImageManager extends Activity {
 	}
 
 	/**
-	 * Update the textView at the bottom of the application. Called manually,
-	 * when the image is changed and when the description for the current image
-	 * is changed.
+	 * Update the textView located at the bottom of the application. Called
+	 * manually, when the image is changed and when the description for the
+	 * current image is changed.
 	 */
 	private void updateDescription() {
 		String title = "Filename : " + filename() + "\nDescription : "
@@ -165,6 +163,7 @@ public class ImageManager extends Activity {
 	}
 
 	/**
+	 * Access method for the filename of the selected image in the gallery.
 	 * 
 	 * @return the filename of the selected image in the gallery.
 	 */
@@ -174,24 +173,28 @@ public class ImageManager extends Activity {
 	}
 
 	/**
+	 * Access method for the description of the selected image in the gallery
 	 * 
-	 * @return
+	 * @return the description linked to the current image.
 	 */
 	private String description() {
 		String description;
+		// Get the row whose column "filename" is the name of the current image.
 		Cursor row = mDbHelper.fetchNote(filename());
 		if (row != null) {
+			// Description is present.
 			startManagingCursor(row);
 			description = row.getString(row
 					.getColumnIndexOrThrow(NotesDbAdapter.KEY_DESC));
 		} else {
-			description = "";
+			// No description in the database for the current image.
+			description = "No description...";
 		}
 		return description;
 	}
 
 	/**
-	 * 
+	 * Allow to create or modify a description
 	 */
 	private void createNote() {
 		Intent i = new Intent(this, DescriptionAdder.class);
@@ -201,12 +204,25 @@ public class ImageManager extends Activity {
 	}
 
 	/**
+	 * Called when an activity you launched exits, giving you the requestCode
+	 * you started it with, the resultCode it returned, and any additional data
+	 * from it.
 	 * 
+	 * @param requestCode
+	 *            The integer request code originally supplied to
+	 *            startActivityForResult().
+	 * @param resultCode
+	 *            The integer result code returned by the child activity through
+	 *            its setResult().
+	 * @param data
+	 *            An Intent, which can return result data to the caller (various
+	 *            data can be attached to Intent "extras").
 	 */
 	@Override
 	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 		super.onActivityResult(requestCode, resultCode, data);
-		updateDescription();
+		if (resultCode == RESULT_OK)
+			updateDescription();
 	}
 
 }
