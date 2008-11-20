@@ -57,6 +57,8 @@ public class DescriptionAdder extends Activity {
 
 		// Set the text showed when the EditText is empty.
 		editText.setHint("Enter your description here...");
+		
+		editText.setMaxLines(1);
 
 		// Have the system blur any windows behind this one.
 		// TODO

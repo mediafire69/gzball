@@ -74,7 +74,7 @@ public class ImageManager extends Activity {
 		textView = (TextView) findViewById(R.id.title);
 
 		// Set the adapter to our custom adapter (ImageAdapter)
-		gallery.setAdapter(new ImageAdapter(this, "/sdcard/apppli", ".jpg"));
+		gallery.setAdapter(new ImageAdapter(this, "/sdcard/appli", ".jpg"));
 
 		// Set a item Selected listener, and show in the imageView the selected
 		// image. This happen when the selected image of the gallery has
