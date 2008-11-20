@@ -62,8 +62,8 @@ public class DescriptionAdder extends Activity {
 
 		// Have the system blur any windows behind this one.
 		// TODO
-		getWindow().setFlags(WindowManager.LayoutParams.FLAG_BLUR_BEHIND,
-				WindowManager.LayoutParams.FLAG_BLUR_BEHIND);
+		//getWindow().setFlags(WindowManager.LayoutParams.FLAG_BLUR_BEHIND,
+		//		WindowManager.LayoutParams.FLAG_BLUR_BEHIND);
 
 		filename = null;
 
