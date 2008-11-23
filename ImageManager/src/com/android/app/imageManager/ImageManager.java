@@ -23,7 +23,8 @@ public class ImageManager extends Activity {
 
 	// Some request codes useful when starting a sub-activity. They are
 	// important in the function onActivityResult which can control which
-	// activity has done his job (when many sub-activities)
+	// activity has done his job (when many sub-activities).
+	// In our case, ACTIVITY_EDIT is not used.
 	private static final int ACTIVITY_CREATE = 0;
 	private static final int ACTIVITY_EDIT = 1;
 
@@ -40,17 +41,17 @@ public class ImageManager extends Activity {
 	/**
 	 * Gallery which can show images in a sort of slide show.
 	 */
-	private Gallery gallery;
+	private Gallery mGallery;
 
 	/**
 	 * ImageView which allows to show an image.
 	 */
-	private ImageView imageView;
+	private ImageView mImageView;
 
 	/**
 	 * TextView permits to show some text in your application.
 	 */
-	private TextView textView;
+	private TextView mTextView;
 
 	/**
 	 * This is the entry point of the application. onCreate is called when the
@@ -69,17 +70,17 @@ public class ImageManager extends Activity {
 		setContentView(R.layout.main);
 
 		// Reference all the widget in the UI
-		gallery = (Gallery) findViewById(R.id.gallery);
-		imageView = (ImageView) findViewById(R.id.image);
-		textView = (TextView) findViewById(R.id.title);
+		mGallery = (Gallery) findViewById(R.id.gallery);
+		mImageView = (ImageView) findViewById(R.id.image);
+		mTextView = (TextView) findViewById(R.id.title);
 
 		// Set the adapter to our custom adapter (ImageAdapter)
-		gallery.setAdapter(new ImageAdapter(this, "/sdcard/appli/", ".jpg"));
+		mGallery.setAdapter(new ImageAdapter(this, "/sdcard/appli/", ".jpg"));
 
 		// Set a item Selected listener, and show in the imageView the selected
 		// image. This happen when the selected image of the gallery has
 		// changed.
-		gallery.setOnItemSelectedListener(new OnItemSelectedListener() {
+		mGallery.setOnItemSelectedListener(new OnItemSelectedListener() {
 
 			/**
 			 * Callback method to be invoked when an item in this view has been
@@ -88,8 +89,8 @@ public class ImageManager extends Activity {
 			@Override
 			public void onItemSelected(AdapterView<?> parent, View view,
 					int position, long id) {
-				Bitmap image = (Bitmap) gallery.getSelectedItem();
-				imageView.setImageBitmap(image);
+				Bitmap image = (Bitmap) mGallery.getSelectedItem();
+				mImageView.setImageBitmap(image);
 
 				updateDescription();
 			}
@@ -100,8 +101,8 @@ public class ImageManager extends Activity {
 			 */
 			@Override
 			public void onNothingSelected(AdapterView<?> parent) {
-				imageView.setImageBitmap(null);
-				textView.setText(null);
+				mImageView.setImageBitmap(null);
+				mTextView.setText(null);
 			}
 		});
 
@@ -111,7 +112,7 @@ public class ImageManager extends Activity {
 
 		// Registers a context menu to be shown for the given view (multiple
 		// views can show the context menu).
-		registerForContextMenu(gallery);
+		registerForContextMenu(mGallery);
 	}
 
 	/**
@@ -140,7 +141,7 @@ public class ImageManager extends Activity {
 	public boolean onMenuItemSelected(int featureId, MenuItem item) {
 		switch (item.getItemId()) {
 		case ADD_COMMENT_ID:
-			createNote();
+			createDescription();
 			return true;
 		case DEL_COMMENT_ID:
 			mDbHelper.deleteNote(filename());
@@ -149,58 +150,6 @@ public class ImageManager extends Activity {
 		}
 		// never reached in the case of the ImageManager Application
 		return super.onMenuItemSelected(featureId, item);
-	}
-
-	/**
-	 * Update the textView located at the bottom of the application. Called
-	 * manually, when the image is changed and when the description for the
-	 * current image is changed.
-	 */
-	private void updateDescription() {
-		String title = "Filename : " + filename() + "\nDescription : "
-				+ description();
-		textView.setText(title);
-	}
-
-	/**
-	 * Access method for the filename of the selected image in the gallery.
-	 * 
-	 * @return the filename of the selected image in the gallery.
-	 */
-	private String filename() {
-		return ((ImageAdapter) gallery.getAdapter())
-				.getFileNameAtPosition(gallery.getSelectedItemPosition());
-	}
-
-	/**
-	 * Access method for the description of the selected image in the gallery
-	 * 
-	 * @return the description linked to the current image.
-	 */
-	private String description() {
-		String description;
-		// Get the row whose column "filename" is the name of the current image.
-		Cursor row = mDbHelper.fetchNote(filename());
-		if (row != null) {
-			// Description is present.
-			startManagingCursor(row);
-			description = row.getString(row
-					.getColumnIndexOrThrow(NotesDbAdapter.KEY_DESC));
-		} else {
-			// No description in the database for the current image.
-			description = "No description...";
-		}
-		return description;
-	}
-
-	/**
-	 * Allow to create or modify a description
-	 */
-	private void createNote() {
-		Intent i = new Intent(this, DescriptionAdder.class);
-
-		i.putExtra(NotesDbAdapter.KEY_FILENAME, filename());
-		startActivityForResult(i, ACTIVITY_CREATE);
 	}
 
 	/**
@@ -222,7 +171,59 @@ public class ImageManager extends Activity {
 	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 		super.onActivityResult(requestCode, resultCode, data);
 		if (resultCode == RESULT_OK)
-			updateDescription();
+			updateDescription();			
+	}
+
+	/**
+	 * Update the textView located at the bottom of the application. Called
+	 * manually, when the image is changed and when the description for the
+	 * current image is changed.
+	 */
+	private void updateDescription() {
+		String title = "Filename : " + filename() + "\nDescription : "
+				+ description();
+		mTextView.setText(title);
+	}
+
+	/**
+	 * Access method for the filename of the selected image in the gallery.
+	 * 
+	 * @return the filename of the selected image in the gallery.
+	 */
+	private String filename() {
+		return ((ImageAdapter) mGallery.getAdapter())
+				.getFileNameAtPosition(mGallery.getSelectedItemPosition());
+	}
+
+	/**
+	 * Access method for the description of the selected image in the gallery
+	 * 
+	 * @return the description linked to the current image.
+	 */
+	private String description() {
+		String description;
+		// Get the row whose column "filename" is the name of the current image.
+		Cursor row = mDbHelper.fetchDescription(filename());
+		if (row != null) {
+			// Description is present.
+			startManagingCursor(row);
+			description = row.getString(row
+					.getColumnIndexOrThrow(NotesDbAdapter.KEY_DESC));
+		} else {
+			// No description in the database for the current image.
+			description = "No description...";
+		}
+		return description;
+	}
+
+	/**
+	 * Allow to create or modify a description
+	 */
+	private void createDescription() {
+		Intent i = new Intent(this, DescriptionAdder.class);
+
+		i.putExtra(NotesDbAdapter.KEY_FILENAME, filename());
+		startActivityForResult(i, ACTIVITY_CREATE);
 	}
 
 }
