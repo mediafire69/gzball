@@ -14,7 +14,7 @@ import android.widget.ImageView;
 
 /**
  * Image manager permit to convert a usual picture (JPG, PNG,...) in a bitmap
- * that is the only format drawable by Android from
+ * which is the only format drawable by Android from.
  */
 public class ImageAdapter extends BaseAdapter {
 
@@ -22,32 +22,33 @@ public class ImageAdapter extends BaseAdapter {
 	private int mGalleryItemBackground;
 
 	// Filenames table
-	private String[] imgsTokens;
+	private String[] mImgsTokens;
 
 	// Bitmap table associate to the filenames table
-	private Bitmap[] photos;
+	private Bitmap[] mPhotos;
 
 	// Android context
 	private Context mContext;
 
 	// the path where the ImageAdapter search files
-	private String path;
+	private String mPath;
 
 	/**
 	 * Constructor
 	 */
 	public ImageAdapter(Context c, String path, String extension) {
 		mContext = c;
-		this.path = path;
-		File dir = new File(path);
+		mPath = path;
+		File dir = new File(mPath);
 
 		// Tables creation
 		File[] files = dir.listFiles(new ExtensionFilter(extension));
 		if (files != null) {
-			imgsTokens = new String[files.length];
-			photos = new Bitmap[imgsTokens.length];
+			mImgsTokens = new String[files.length];
+			mPhotos = new Bitmap[mImgsTokens.length];
 
-			// Background color getting
+			// Get the Default Background of the Gallery (the image is
+			// surrounded by borders)
 			TypedArray a = mContext
 					.obtainStyledAttributes(android.R.styleable.Theme);
 			mGalleryItemBackground = a.getResourceId(
@@ -56,8 +57,8 @@ public class ImageAdapter extends BaseAdapter {
 			// Bitmaps Decoding
 			for (int i = 0; i < files.length; i++) {
 				try {
-					imgsTokens[i] = files[i].getName();
-					photos[i] = BitmapFactory.decodeFile(path + imgsTokens[i]);
+					mImgsTokens[i] = files[i].getName();
+					mPhotos[i] = BitmapFactory.decodeFile(mPath + mImgsTokens[i]);
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
@@ -67,47 +68,59 @@ public class ImageAdapter extends BaseAdapter {
 	}
 
 	/**
-	 * getter of Filename form position
-	 */
-	public String getFileNameAtPosition(int position) {
-		return imgsTokens[position];
-	}
-
-	/**
 	 * get Counter of image
 	 */
 	public int getCount() {
-		if (photos != null)
-			return photos.length;
-		else
-			return 0;
+		return mPhotos != null ? mPhotos.length : 0;
 	}
 
 	/**
-	 * Implemented fonction from BaseAdapter Getter of item
+	 * Implemented function from BaseAdapter Getter of item
 	 */
 	public Object getItem(int position) {
-		return photos[position];
+		return mPhotos[position];
 	}
 
 	/**
-	 * Implemented fonction from BaseAdapter Getter of itemId
+	 * Implemented function from BaseAdapter Getter of itemId
 	 */
 	public long getItemId(int position) {
-		return position;
+		return -1;
 	}
 
-	// TODO a comprendre !!
+	/**
+	 * Get a View that displays the data at the specified position in the data
+	 * set of our adapter. Here, we create a view manually but it's possible to
+	 * get it from an XML layout file too.
+	 * 
+	 * @param position
+	 *            The position in the data set we want to modify.
+	 * @param convertView
+	 *            The old view to reuse, if needed.
+	 * @param parent
+	 *            The parent linked to this adapter.
+	 * 
+	 * @return Returns the bitmap corresponding to the filename at the specified
+	 *         position.
+	 */
 	public View getView(int position, View convertView, ViewGroup parent) {
 		ImageView i = new ImageView(mContext);
-
-		i.setImageBitmap(photos[position]);
-		i.setScaleType(ImageView.ScaleType.FIT_XY);
+	
+		i.setImageBitmap(mPhotos[position]);
+		i.setScaleType(ImageView.ScaleType.CENTER_INSIDE);
+		// set the size of the image showed in the parent.
 		i.setLayoutParams(new Gallery.LayoutParams(136, 88));
-
+	
 		// The preferred Gallery item background
 		i.setBackgroundResource(mGalleryItemBackground);
 		return i;
+	}
+
+	/**
+	 * getter of Filename form position
+	 */
+	public String getFileNameAtPosition(int position) {
+		return mImgsTokens[position];
 	}
 
 }
