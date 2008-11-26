@@ -1,26 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:id="@+id/layout"
-	android:layout_width="fill_parent" android:layout_height="fill_parent"
-	xmlns:android="http://schemas.android.com/apk/res/android">
-	
-	<Gallery android:id="@+id/gallery"
-	android:layout_width="fill_parent"
-		android:layout_height="wrap_content"
-		android:layout_alignParentTop="true"
-		android:layout_alignParentLeft="true"
-
-		/>
-		
-	<TextView android:id="@+id/title" android:layout_width="fill_parent"
-		android:layout_height="wrap_content" android:text="TextView"
-		android:layout_alignParentBottom="true"
-	/>
-		
-	<ImageView android:id="@+id/image" android:layout_width="fill_parent"
-	android:layout_below="@+id/gallery"
-	android:layout_above="@+id/title"
-	android:layout_height="wrap_content" android:layout_alignParentLeft="true"
-	/>
-	
-</RelativeLayout>
-
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/example" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:text="@string/app_name" />

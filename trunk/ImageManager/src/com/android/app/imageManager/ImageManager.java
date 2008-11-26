@@ -1,25 +1,24 @@
 package com.android.app.imageManager;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.database.Cursor;
-import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.view.Menu;
-import android.view.MenuItem;
-import android.view.View;
-import android.widget.AdapterView;
 import android.widget.Gallery;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.AdapterView.OnItemSelectedListener;
 
 /**
- * 
- * @author mgarnier
- * 
+ * This is a simple Image viewer for Android.
  */
 public class ImageManager extends Activity {
+
+	/*
+	 * Nous vous avons laissé quelques fonctions de base afin que vous puissiez
+	 * rentrer chez vous avant minuit... Tous les emplacements TODO sont à
+	 * compléter. Il reste aussi à ajouter des fonctions pour la gestion du menu
+	 * et du lancement de l'activité permettant l'ajout de commentaires.
+	 */
 
 	// Some request codes useful when starting a sub-activity. They are
 	// important in the function onActivityResult which can control which
@@ -70,119 +69,20 @@ public class ImageManager extends Activity {
 		setContentView(R.layout.main);
 
 		// Reference all the widget in the UI
-		mGallery = (Gallery) findViewById(R.id.gallery);
-		mImageView = (ImageView) findViewById(R.id.image);
-		mTextView = (TextView) findViewById(R.id.title);
+		// TODO find the reference of the elements used in the UI
 
 		// Set the adapter to our custom adapter (ImageAdapter)
-		mGallery.setAdapter(new ImageAdapter(this, "/sdcard/appli/", ".jpg"));
+		// mGallery.setAdapter(new ImageAdapter(this, "/sdcard/appli/",
+		// ".jpg"));
 
 		// Set a item Selected listener, and show in the imageView the selected
 		// image. This happen when the selected image of the gallery has
 		// changed.
-		mGallery.setOnItemSelectedListener(new OnItemSelectedListener() {
-
-			/**
-			 * Callback method to be invoked when an item in this view has been
-			 * selected.
-			 */
-			@Override
-			public void onItemSelected(AdapterView<?> parent, View view,
-					int position, long id) {
-				Bitmap image = (Bitmap) mGallery.getSelectedItem();
-				mImageView.setImageBitmap(image);
-
-				updateDescription();
-			}
-
-			/**
-			 * Callback method to be invoked when the selection disappears from
-			 * this view.
-			 */
-			@Override
-			public void onNothingSelected(AdapterView<?> parent) {
-				mImageView.setImageBitmap(null);
-				mTextView.setText(null);
-			}
-		});
+		// TODO add a listener on item selection of the gallery
 
 		// Create the NotesDbAdapter
 		mDbHelper = new NotesDbAdapter(this);
 		mDbHelper.open();
-
-		// Registers a context menu to be shown for the given view (multiple
-		// views can show the context menu).
-		registerForContextMenu(mGallery);
-	}
-
-	/**
-	 * Initialize the contents of the Activity's standard options menu.
-	 * 
-	 * @param menu
-	 *            You should place your menu items in to menu.
-	 */
-	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		super.onCreateOptionsMenu(menu);
-		menu.add(0, ADD_COMMENT_ID, 0, R.string.menu_add_comment);
-		menu.add(0, DEL_COMMENT_ID, 0, R.string.menu_delete);
-		return true;
-	}
-
-	/**
-	 * Called when a panel's menu item has been selected by the user.
-	 * 
-	 * @param featureId
-	 *            The panel that the menu is in.
-	 * @param item
-	 *            The menu item that was selected.
-	 */
-	@Override
-	public boolean onMenuItemSelected(int featureId, MenuItem item) {
-		switch (item.getItemId()) {
-		case ADD_COMMENT_ID:
-			createDescription();
-			return true;
-		case DEL_COMMENT_ID:
-			mDbHelper.deleteNote(filename());
-			updateDescription();
-			return true;
-		}
-		// never reached in the case of the ImageManager Application
-		return super.onMenuItemSelected(featureId, item);
-	}
-
-	/**
-	 * Called when an activity you launched exits, giving you the requestCode
-	 * you started it with, the resultCode it returned, and any additional data
-	 * from it.
-	 * 
-	 * @param requestCode
-	 *            The integer request code originally supplied to
-	 *            startActivityForResult().
-	 * @param resultCode
-	 *            The integer result code returned by the child activity through
-	 *            its setResult().
-	 * @param data
-	 *            An Intent, which can return result data to the caller (various
-	 *            data can be attached to Intent "extras").
-	 */
-	@Override
-	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-		super.onActivityResult(requestCode, resultCode, data);
-		if (resultCode == RESULT_OK)
-			updateDescription();			
-	}
-
-	/**
-	 * Update the textView located at the bottom of the application. Called
-	 * manually, when the image is changed and when the description for the
-	 * current image is changed.
-	 */
-	private void updateDescription() {
-		String title = "Filename : " + filename() + "\nDescription : "
-				+ description();
-		mTextView.setText(title);
 	}
 
 	/**
@@ -191,8 +91,8 @@ public class ImageManager extends Activity {
 	 * @return the filename of the selected image in the gallery.
 	 */
 	private String filename() {
-		return ((ImageAdapter) mGallery.getAdapter())
-				.getFileNameAtPosition(mGallery.getSelectedItemPosition());
+		// TODO
+		return null;
 	}
 
 	/**
@@ -214,16 +114,6 @@ public class ImageManager extends Activity {
 			description = "No description...";
 		}
 		return description;
-	}
-
-	/**
-	 * Allow to create or modify a description
-	 */
-	private void createDescription() {
-		Intent i = new Intent(this, DescriptionAdder.class);
-
-		i.putExtra(NotesDbAdapter.KEY_FILENAME, filename());
-		startActivityForResult(i, ACTIVITY_CREATE);
 	}
 
 }
