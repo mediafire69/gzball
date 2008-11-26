@@ -3,17 +3,19 @@ package com.android.app.imageManager;
 import android.app.Activity;
 import android.database.Cursor;
 import android.os.Bundle;
-import android.view.View;
-import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
 
 /**
  * That is the activity used to add or modify a description for an image.
  * 
- * @author mgarnier
  */
 public class DescriptionAdder extends Activity {
+
+	/*
+	 * Cette activité est quasi nulle. Il ne reste plus que les accès à la BDD
+	 * qui stocke les descriptions (pas interessant à coder :)
+	 */
 
 	/**
 	 * Button which permits to save your description.
@@ -48,81 +50,8 @@ public class DescriptionAdder extends Activity {
 		mDbHelper = new NotesDbAdapter(this);
 		mDbHelper.open();
 
-		mValidate = (Button) findViewById(R.id.button);
-		mEditText = (EditText) findViewById(R.id.description);
+		// TODO
 
-		// Set the text showed when the EditText is empty.
-		mEditText.setHint("Enter your description here...");
-
-		// Set max possible lines to 1
-		mEditText.setMaxLines(1);
-
-		mFilename = null;
-
-		// The activity has been paused or interrupted.
-		if (savedInstanceState != null)
-			mFilename = savedInstanceState
-					.getString(NotesDbAdapter.KEY_FILENAME);
-
-		// The image filename is provided by the main activity (ImageManager).
-		if (mFilename == null) {
-			Bundle extras = getIntent().getExtras();
-			if (extras != null)
-				mFilename = extras.getString(NotesDbAdapter.KEY_FILENAME);
-		}
-
-		// Fill description area.
-		populateFields();
-
-		// Register a callback to be invoked when the button is clicked.
-		mValidate.setOnClickListener(new OnClickListener() {
-
-			/**
-			 * Called when the button has been clicked.
-			 */
-			@Override
-			public void onClick(View v) {
-				setResult(RESULT_OK);
-				finish();
-			}
-		});
-	}
-
-	/**
-	 * Called to save the state from an activity before being killed so that the
-	 * state can be restored in onCreate(Bundle).
-	 */
-	@Override
-	protected void onSaveInstanceState(Bundle outState) {
-		super.onSaveInstanceState(outState);
-		outState.putString(NotesDbAdapter.KEY_FILENAME, mFilename);
-	}
-
-	/**
-	 * Called when an activity is going into the background, but has not (yet)
-	 * been killed.
-	 */
-	@Override
-	protected void onPause() {
-		super.onPause();
-		saveState();
-	}
-
-	/**
-	 * Called after onPause(), when the activity comes to the foreground.
-	 */
-	@Override
-	protected void onResume() {
-		super.onResume();
-		populateFields();
-	}
-
-	/**
-	 * Save the current description to the database.
-	 */
-	private void saveState() {
-		String _description = mEditText.getText().toString();
-		mDbHelper.createOrUpdateNote(mFilename, _description);
 	}
 
 	/**
