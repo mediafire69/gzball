@@ -13,7 +13,7 @@ import android.widget.EditText;
 public class DescriptionAdder extends Activity {
 
 	/*
-	 * Cette activité est quasi nulle. Il ne reste plus que les accès à la BDD
+	 * Cette activité est quasi vide. Il ne reste plus que les accès à la BDD
 	 * qui stocke les descriptions (pas interessant à coder :)
 	 */
 
