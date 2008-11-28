@@ -1,0 +1,18 @@
+---------------------------------------------------------------------------------
+Des systèmes souvent critiques [Mettre après domaines d'application]
+
+ - Contraintes plus strictes que pour un PC
+	* Temps réel
+	* Sécurité
+	* Fiabilité
+
+ - Exemples
+	* Système de guidage de fusée
+	* Equipement médical
+	* Guichet automatique
+
+
+Image : Fusee
+Commentaire : critique car risque pour l'homme ou risque financier...
+
+---------------------------------------------------------------------------------
