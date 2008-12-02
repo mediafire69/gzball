@@ -1,4 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TextView xmlns:android="http://schemas.android.com/apk/res/android"
-	android:id="@+id/example" android:layout_width="fill_parent"
-	android:layout_height="fill_parent" android:text="@string/app_name" />
+	<!--
+		WARNING: this is just the place to design your GUI, but you
+		have to complete the method OnCreate on your activity associated with
+		this file to make it functional.
+		
+		Some information about attributes you could use:
+		android:id="@+id/text_id"
+		it's the id of our component, it's referenced in the R.java
+		useful when we want to modify it in activity
+		source code. the symbol '+' is here to show that we add a new id.
+		
+		android:layout_width, layout_height, layout_alignParentTop,
+		layout_alignParentLeft, layout_below, android:layout_above...
+		you can get some help at this address:
+		http://code.google.com/android/reference/android/widget/RelativeLayout.LayoutParams.html
+		
+		Rq1: You have to write the namespace of android in the root of the xml
+		Rq2: There is only ONE root in a xml file
+		Rq3: Complete the java class before starting your application
+			Indeed, the Gallery and ImageView won't be filled with
+			images and nothing will appear on the screen.
+	-->
+
+<RelativeLayout android:id="@+id/layout"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<Gallery android:id="@+id/gallery" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_alignParentTop="true"
+		android:layout_alignParentLeft="true" />
+
+</RelativeLayout>
