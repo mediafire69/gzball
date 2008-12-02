@@ -50,7 +50,8 @@ public class DescriptionAdder extends Activity {
 		mDbHelper = new NotesDbAdapter(this);
 		mDbHelper.open();
 
-		// TODO
+		// TODO Good luck !
+		// Use all the information you gather from the precedent activity
 
 	}
 
