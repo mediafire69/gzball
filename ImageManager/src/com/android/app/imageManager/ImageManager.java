@@ -69,9 +69,15 @@ public class ImageManager extends Activity {
 		setContentView(R.layout.main);
 
 		// Reference all the widget in the UI
-		// TODO find the reference of the elements used in the UI
+		// TODO find the reference of the elements used in the UI.
+		// you can use the function findViewById(int).
+		// ex: TextView tv = (TextView) findViewById(R.id.text_id)
+		// Note: the variables already exist and the id are defined in the xml
+		// file.
 
 		// Set the adapter to our custom adapter (ImageAdapter)
+		// It enables the gallery to access the images on the sdcard.
+		// TODO when mGalery is referenced, you can uncomment this code.
 		// mGallery.setAdapter(new ImageAdapter(this, "/sdcard/appli/",
 		// ".jpg"));
 
@@ -91,8 +97,8 @@ public class ImageManager extends Activity {
 	 * @return the filename of the selected image in the gallery.
 	 */
 	private String filename() {
-		// TODO
-		return null;
+		return ((ImageAdapter) mGallery.getAdapter())
+		.getFileNameAtPosition(mGallery.getSelectedItemPosition());
 	}
 
 	/**
